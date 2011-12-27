@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>C Block</key>
+	<string>C,C,C,C,C,C,C,C,C,C</string>
+	<key>F Block</key>
+	<string>F,F,F,F,F,F,F,F,F,F</string>
+	<key>E Block</key>
+	<string>E,E,E,E,E,E,E,E,E,E,E</string>
+	<key>B Block</key>
+	<string>B,B,B,B,B,B,B,B,B,B</string>
+	<key>A Block</key>
+	<string>A,A,A,A,A,A,A,A,A,A</string>
+	<key>PE Block</key>
+	<string>PE,PE,PE,PE,PE,PE,PE,PE,PE,PE</string>
+	<key>D Block</key>
+	<string>D,D,D,D,D,D,D,D,D,D</string>
+	<key>G Block</key>
+	<string>G,G,G,G,G,G,G,G,G,G</string>
+</dict>
+</plist>

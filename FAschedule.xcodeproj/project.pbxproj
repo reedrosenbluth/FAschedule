@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D08A1031408298C007ABD3F /* UINavigationBar+fadeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08A1021408298C007ABD3F /* UINavigationBar+fadeBar.m */; };
+		9D0C32FE14314B9F0026D60D /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C32FD14314B9F0026D60D /* Icon-iPad.png */; };
+		9D376FE514082A9A008C53F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D376FE414082A9A008C53F5 /* QuartzCore.framework */; };
+		9D376FE81408339B008C53F5 /* classStatusBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D376FE71408339B008C53F5 /* classStatusBG@2x.png */; };
+		9D376FEA140837A4008C53F5 /* classStatusBG2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D376FE9140837A4008C53F5 /* classStatusBG2@2x.png */; };
+		9D81C93F143917B800BBF0CE /* classStatusBG3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */; };
+		9DBD0B651406EB3800A91408 /* tableBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD0B641406EB3800A91408 /* tableBG@2x.png */; };
+		CE0788651364BC5B00387598 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0788641364BC5B00387598 /* CustomCell.m */; };
+		CE0788671364BE4100387598 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0788661364BE4100387598 /* CustomCell.xib */; };
+		CE0788801366120900387598 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07887F1366120900387598 /* DayViewController.m */; };
+		CE2C41DF13F0574D00583F85 /* CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C41DE13F0574D00583F85 /* CustomColors.m */; };
+		CE2E1A5314100AE300E0AB9D /* PagedScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1A5214100AE200E0AB9D /* PagedScheduleViewController.m */; };
+		CE30F9A814155276002A4DC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE30F9A714155276002A4DC3 /* Icon.png */; };
+		CE30F9AA14155291002A4DC3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE30F9A914155291002A4DC3 /* Icon@2x.png */; };
+		CE346E481376EA7600833E8B /* Subjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE346E471376EA7600833E8B /* Subjects.plist */; };
+		CE5FD83F1366640100A860E8 /* TitleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5FD83E1366640100A860E8 /* TitleBar.png */; };
+		CE5FD8411366669E00A860E8 /* cellgradient.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5FD8401366669E00A860E8 /* cellgradient.png */; };
+		CE5FD8531369EC3A00A860E8 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FD8521369EC3A00A860E8 /* Block.m */; };
+		CE5FD85E136B791F00A860E8 /* Week.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FD85D136B791F00A860E8 /* Week.m */; };
+		CE6045BD1361B62100C43EF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6045BC1361B62100C43EF1 /* UIKit.framework */; };
+		CE6045BF1361B62100C43EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6045BE1361B62100C43EF1 /* Foundation.framework */; };
+		CE6045C11361B62100C43EF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6045C01361B62100C43EF1 /* CoreGraphics.framework */; };
+		CE6045C71361B62100C43EF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6045C51361B62100C43EF1 /* InfoPlist.strings */; };
+		CE6045CA1361B62100C43EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6045C91361B62100C43EF1 /* main.m */; };
+		CE6045CD1361B62100C43EF1 /* FAscheduleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6045CC1361B62100C43EF1 /* FAscheduleAppDelegate.m */; };
+		CE6045D01361B62100C43EF1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6045CE1361B62100C43EF1 /* MainWindow.xib */; };
+		CE6045DF1361B8A400C43EF1 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6045DE1361B8A300C43EF1 /* ScheduleViewController.m */; };
+		CE77C9D6137487420050763B /* SettingsViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77C9D4137487410050763B /* SettingsViewController_1.m */; };
+		CE77C9DA1374C5580050763B /* SettingsView_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77C9D91374C5570050763B /* SettingsView_2.xib */; };
+		CE77C9DD1374C96F0050763B /* SettingsViewController_2.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77C9DC1374C96F0050763B /* SettingsViewController_2.m */; };
+		CE8B131E1416E1860032628C /* middleCell.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8B131B1416E1860032628C /* middleCell.png */; };
+		CE8B131F1416E1860032628C /* topCell.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8B131C1416E1860032628C /* topCell.png */; };
+		CE8B13201416E1860032628C /* bottomCell.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8B131D1416E1860032628C /* bottomCell.png */; };
+		CE8B13321417050F0032628C /* tableBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8B13311417050E0032628C /* tableBG.png */; };
+		CE8D156A140029FB004C25AE /* Period.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8D1569140029FB004C25AE /* Period.m */; };
+		CE8D156F14009480004C25AE /* LunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8D156D14009480004C25AE /* LunchViewController.m */; };
+		CE8D157014009480004C25AE /* LunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8D156E14009480004C25AE /* LunchViewController.xib */; };
+		CE91EFA3140175F70001F533 /* StudentSchedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91EFA2140175F70001F533 /* StudentSchedStore.m */; };
+		CE91EFA6140176EF0001F533 /* StudentSched.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91EFA5140176EF0001F533 /* StudentSched.m */; };
+		CE91EFAD140191E10001F533 /* Week.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE91EFAC140191E10001F533 /* Week.plist */; };
+		CEA06DDE1404202000060D11 /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA06DDD1404202000060D11 /* DayViewController.xib */; };
+		CEA06DE214048E1600060D11 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA06DE014048E1600060D11 /* HelpViewController.m */; };
+		CEA06DE314048E1600060D11 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA06DE114048E1600060D11 /* HelpViewController.xib */; };
+		CEA37B8513837ED000EE9A70 /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA37B8413837ED000EE9A70 /* Time.m */; };
+		CEA37B9113841D3C00EE9A70 /* SettingsViewController_3.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA37B9013841D3C00EE9A70 /* SettingsViewController_3.m */; };
+		CEB6267F138D49A100151951 /* fa2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB6267E138D49A100151951 /* fa2x.png */; };
+		CEB62682138D49C000151951 /* fa1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB62681138D49C000151951 /* fa1x.png */; };
+		CEC9131114314A08002191AA /* SettingsView_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC9130F14314A08002191AA /* SettingsView_1.xib */; };
+		CED0E1FE1429654000FCEDC4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CED0E1FD1429654000FCEDC4 /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D08A1011408298C007ABD3F /* UINavigationBar+fadeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+fadeBar.h"; sourceTree = "<group>"; };
+		9D08A1021408298C007ABD3F /* UINavigationBar+fadeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+fadeBar.m"; sourceTree = "<group>"; };
+		9D0C32FD14314B9F0026D60D /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		9D376FE414082A9A008C53F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D376FE71408339B008C53F5 /* classStatusBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG@2x.png"; sourceTree = "<group>"; };
+		9D376FE9140837A4008C53F5 /* classStatusBG2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG2@2x.png"; sourceTree = "<group>"; };
+		9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG3@2x.png"; sourceTree = "<group>"; };
+		9DBD0B641406EB3800A91408 /* tableBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableBG@2x.png"; sourceTree = "<group>"; };
+		CE0788631364BC5A00387598 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CE0788641364BC5B00387598 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		CE0788661364BE4100387598 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = FAschedule/CustomCell.xib; sourceTree = "<group>"; };
+		CE07887E1366120900387598 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DayViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CE07887F1366120900387598 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DayViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CE2C41DD13F0574D00583F85 /* CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColors.h; sourceTree = "<group>"; };
+		CE2C41DE13F0574D00583F85 /* CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColors.m; sourceTree = "<group>"; };
+		CE2E1A5114100AE200E0AB9D /* PagedScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScheduleViewController.h; sourceTree = "<group>"; };
+		CE2E1A5214100AE200E0AB9D /* PagedScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScheduleViewController.m; sourceTree = "<group>"; };
+		CE30F9A714155276002A4DC3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		CE30F9A914155291002A4DC3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		CE346E471376EA7600833E8B /* Subjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Subjects.plist; sourceTree = "<group>"; };
+		CE5FD83E1366640100A860E8 /* TitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleBar.png; sourceTree = "<group>"; };
+		CE5FD8401366669E00A860E8 /* cellgradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellgradient.png; sourceTree = "<group>"; };
+		CE5FD8511369EC3A00A860E8 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		CE5FD8521369EC3A00A860E8 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		CE5FD85C136B791F00A860E8 /* Week.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Week.h; sourceTree = "<group>"; };
+		CE5FD85D136B791F00A860E8 /* Week.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Week.m; sourceTree = "<group>"; };
+		CE6045B81361B62100C43EF1 /* FAschedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAschedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6045BC1361B62100C43EF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE6045BE1361B62100C43EF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE6045C01361B62100C43EF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE6045C41361B62100C43EF1 /* FAschedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FAschedule-Info.plist"; sourceTree = "<group>"; };
+		CE6045C61361B62100C43EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6045C81361B62100C43EF1 /* FAschedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FAschedule-Prefix.pch"; sourceTree = "<group>"; };
+		CE6045C91361B62100C43EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6045CB1361B62100C43EF1 /* FAscheduleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAscheduleAppDelegate.h; sourceTree = "<group>"; };
+		CE6045CC1361B62100C43EF1 /* FAscheduleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FAscheduleAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CE6045CF1361B62100C43EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE6045DD1361B8A300C43EF1 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ScheduleViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CE6045DE1361B8A300C43EF1 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ScheduleViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CE77C9D3137487410050763B /* SettingsViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController_1.h; sourceTree = "<group>"; };
+		CE77C9D4137487410050763B /* SettingsViewController_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController_1.m; sourceTree = "<group>"; };
+		CE77C9D91374C5570050763B /* SettingsView_2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsView_2.xib; path = FAschedule/SettingsView_2.xib; sourceTree = "<group>"; };
+		CE77C9DB1374C96F0050763B /* SettingsViewController_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SettingsViewController_2.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CE77C9DC1374C96F0050763B /* SettingsViewController_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SettingsViewController_2.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CE8B131B1416E1860032628C /* middleCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleCell.png; sourceTree = "<group>"; };
+		CE8B131C1416E1860032628C /* topCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topCell.png; sourceTree = "<group>"; };
+		CE8B131D1416E1860032628C /* bottomCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomCell.png; sourceTree = "<group>"; };
+		CE8B13311417050E0032628C /* tableBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tableBG.png; path = ../tableBG.png; sourceTree = "<group>"; };
+		CE8D1568140029FA004C25AE /* Period.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Period.h; sourceTree = "<group>"; };
+		CE8D1569140029FB004C25AE /* Period.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Period.m; sourceTree = "<group>"; };
+		CE8D156C14009480004C25AE /* LunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchViewController.h; sourceTree = "<group>"; };
+		CE8D156D14009480004C25AE /* LunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchViewController.m; sourceTree = "<group>"; };
+		CE8D156E14009480004C25AE /* LunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LunchViewController.xib; path = FAschedule/LunchViewController.xib; sourceTree = "<group>"; };
+		CE91EFA1140175F70001F533 /* StudentSchedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSchedStore.h; sourceTree = "<group>"; };
+		CE91EFA2140175F70001F533 /* StudentSchedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSchedStore.m; sourceTree = "<group>"; };
+		CE91EFA4140176EF0001F533 /* StudentSched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSched.h; sourceTree = "<group>"; };
+		CE91EFA5140176EF0001F533 /* StudentSched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSched.m; sourceTree = "<group>"; };
+		CE91EFAC140191E10001F533 /* Week.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Week.plist; sourceTree = "<group>"; };
+		CEA06DDD1404202000060D11 /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayViewController.xib; path = FAschedule/DayViewController.xib; sourceTree = "<group>"; };
+		CEA06DDF14048E1600060D11 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		CEA06DE014048E1600060D11 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		CEA06DE114048E1600060D11 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelpViewController.xib; path = FAschedule/HelpViewController.xib; sourceTree = "<group>"; };
+		CEA37B8313837ED000EE9A70 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		CEA37B8413837ED000EE9A70 /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
+		CEA37B8F13841D3C00EE9A70 /* SettingsViewController_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SettingsViewController_3.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CEA37B9013841D3C00EE9A70 /* SettingsViewController_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SettingsViewController_3.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CEB6267E138D49A100151951 /* fa2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fa2x.png; path = ../fa2x.png; sourceTree = "<group>"; };
+		CEB62681138D49C000151951 /* fa1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fa1x.png; path = ../fa1x.png; sourceTree = "<group>"; };
+		CEC9130F14314A08002191AA /* SettingsView_1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView_1.xib; sourceTree = "<group>"; };
+		CED0E1FC1429654000FCEDC4 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CED0E1FD1429654000FCEDC4 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6045B51361B62100C43EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D376FE514082A9A008C53F5 /* QuartzCore.framework in Frameworks */,
+				CE6045BD1361B62100C43EF1 /* UIKit.framework in Frameworks */,
+				CE6045BF1361B62100C43EF1 /* Foundation.framework in Frameworks */,
+				CE6045C11361B62100C43EF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE07885713633B5200387598 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */,
+				CE8B131B1416E1860032628C /* middleCell.png */,
+				CE8B131C1416E1860032628C /* topCell.png */,
+				CE8B131D1416E1860032628C /* bottomCell.png */,
+				CE30F9A914155291002A4DC3 /* Icon@2x.png */,
+				CE30F9A714155276002A4DC3 /* Icon.png */,
+				9D376FE71408339B008C53F5 /* classStatusBG@2x.png */,
+				9D376FE9140837A4008C53F5 /* classStatusBG2@2x.png */,
+				CE8B13311417050E0032628C /* tableBG.png */,
+				9DBD0B641406EB3800A91408 /* tableBG@2x.png */,
+				CEB62681138D49C000151951 /* fa1x.png */,
+				CEB6267E138D49A100151951 /* fa2x.png */,
+				CE5FD8401366669E00A860E8 /* cellgradient.png */,
+				CE5FD83E1366640100A860E8 /* TitleBar.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CE2A080513F1E1F0009C1F92 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE07887E1366120900387598 /* DayViewController.h */,
+				CE07887F1366120900387598 /* DayViewController.m */,
+				CE6045DD1361B8A300C43EF1 /* ScheduleViewController.h */,
+				CE6045DE1361B8A300C43EF1 /* ScheduleViewController.m */,
+				CE0788631364BC5A00387598 /* CustomCell.h */,
+				CE0788641364BC5B00387598 /* CustomCell.m */,
+				CE2E1A5114100AE200E0AB9D /* PagedScheduleViewController.h */,
+				CE2E1A5214100AE200E0AB9D /* PagedScheduleViewController.m */,
+				CE77C9D3137487410050763B /* SettingsViewController_1.h */,
+				CE77C9D4137487410050763B /* SettingsViewController_1.m */,
+				CE77C9DB1374C96F0050763B /* SettingsViewController_2.h */,
+				CE77C9DC1374C96F0050763B /* SettingsViewController_2.m */,
+				CEA37B8F13841D3C00EE9A70 /* SettingsViewController_3.h */,
+				CEA37B9013841D3C00EE9A70 /* SettingsViewController_3.m */,
+				CE8D156C14009480004C25AE /* LunchViewController.h */,
+				CE8D156D14009480004C25AE /* LunchViewController.m */,
+				CEA06DDF14048E1600060D11 /* HelpViewController.h */,
+				CEA06DE014048E1600060D11 /* HelpViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE2A080713F1E218009C1F92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE5FD8511369EC3A00A860E8 /* Block.h */,
+				CE5FD8521369EC3A00A860E8 /* Block.m */,
+				CE5FD85C136B791F00A860E8 /* Week.h */,
+				CE5FD85D136B791F00A860E8 /* Week.m */,
+				CEA37B8313837ED000EE9A70 /* Time.h */,
+				CEA37B8413837ED000EE9A70 /* Time.m */,
+				CE8D1568140029FA004C25AE /* Period.h */,
+				CE8D1569140029FB004C25AE /* Period.m */,
+				CE91EFA4140176EF0001F533 /* StudentSched.h */,
+				CE91EFA5140176EF0001F533 /* StudentSched.m */,
+				CE91EFA1140175F70001F533 /* StudentSchedStore.h */,
+				CE91EFA2140175F70001F533 /* StudentSchedStore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE2C41E113F0577800583F85 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C41DD13F0574D00583F85 /* CustomColors.h */,
+				CE2C41DE13F0574D00583F85 /* CustomColors.m */,
+				9D08A1011408298C007ABD3F /* UINavigationBar+fadeBar.h */,
+				9D08A1021408298C007ABD3F /* UINavigationBar+fadeBar.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		CE6045AD1361B62100C43EF1 = {
+			isa = PBXGroup;
+			children = (
+				9D0C32FD14314B9F0026D60D /* Icon-iPad.png */,
+				9D376FE414082A9A008C53F5 /* QuartzCore.framework */,
+				CE6045C21361B62100C43EF1 /* FAschedule */,
+				CE6045BB1361B62100C43EF1 /* Frameworks */,
+				CE6045B91361B62100C43EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6045B91361B62100C43EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6045B81361B62100C43EF1 /* FAschedule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6045BB1361B62100C43EF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6045BC1361B62100C43EF1 /* UIKit.framework */,
+				CE6045BE1361B62100C43EF1 /* Foundation.framework */,
+				CE6045C01361B62100C43EF1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6045C21361B62100C43EF1 /* FAschedule */ = {
+			isa = PBXGroup;
+			children = (
+				CE6045CB1361B62100C43EF1 /* FAscheduleAppDelegate.h */,
+				CE6045CC1361B62100C43EF1 /* FAscheduleAppDelegate.m */,
+				CED0E1FC1429654000FCEDC4 /* Constants.h */,
+				CED0E1FD1429654000FCEDC4 /* Constants.m */,
+				CE7C276C141BBC84007D24C5 /* Nibs */,
+				CE2A080513F1E1F0009C1F92 /* View Controllers */,
+				CE2A080713F1E218009C1F92 /* Model */,
+				CE2C41E113F0577800583F85 /* Categories */,
+				CE07885713633B5200387598 /* Images */,
+				CE6045C31361B62100C43EF1 /* Supporting Files */,
+			);
+			path = FAschedule;
+			sourceTree = "<group>";
+		};
+		CE6045C31361B62100C43EF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6045C41361B62100C43EF1 /* FAschedule-Info.plist */,
+				CE6045C51361B62100C43EF1 /* InfoPlist.strings */,
+				CE6045C81361B62100C43EF1 /* FAschedule-Prefix.pch */,
+				CE6045C91361B62100C43EF1 /* main.m */,
+				CE91EFAC140191E10001F533 /* Week.plist */,
+				CE346E471376EA7600833E8B /* Subjects.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7C276C141BBC84007D24C5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				CEC9130F14314A08002191AA /* SettingsView_1.xib */,
+				CEA06DDD1404202000060D11 /* DayViewController.xib */,
+				CE8D156E14009480004C25AE /* LunchViewController.xib */,
+				CEA06DE114048E1600060D11 /* HelpViewController.xib */,
+				CE0788661364BE4100387598 /* CustomCell.xib */,
+				CE6045CE1361B62100C43EF1 /* MainWindow.xib */,
+				CE77C9D91374C5570050763B /* SettingsView_2.xib */,
+			);
+			name = Nibs;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6045B71361B62100C43EF1 /* FAschedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6045D31361B62100C43EF1 /* Build configuration list for PBXNativeTarget "FAschedule" */;
+			buildPhases = (
+				CE6045B41361B62100C43EF1 /* Sources */,
+				CE6045B51361B62100C43EF1 /* Frameworks */,
+				CE6045B61361B62100C43EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAschedule;
+			productName = FAschedule;
+			productReference = CE6045B81361B62100C43EF1 /* FAschedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6045AF1361B62100C43EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE6045B21361B62100C43EF1 /* Build configuration list for PBXProject "FAschedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE6045AD1361B62100C43EF1;
+			productRefGroup = CE6045B91361B62100C43EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6045B71361B62100C43EF1 /* FAschedule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6045B61361B62100C43EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6045C71361B62100C43EF1 /* InfoPlist.strings in Resources */,
+				CE6045D01361B62100C43EF1 /* MainWindow.xib in Resources */,
+				CE0788671364BE4100387598 /* CustomCell.xib in Resources */,
+				CE5FD83F1366640100A860E8 /* TitleBar.png in Resources */,
+				CE5FD8411366669E00A860E8 /* cellgradient.png in Resources */,
+				CE77C9DA1374C5580050763B /* SettingsView_2.xib in Resources */,
+				CE346E481376EA7600833E8B /* Subjects.plist in Resources */,
+				CEB6267F138D49A100151951 /* fa2x.png in Resources */,
+				CEB62682138D49C000151951 /* fa1x.png in Resources */,
+				CE8D157014009480004C25AE /* LunchViewController.xib in Resources */,
+				CE91EFAD140191E10001F533 /* Week.plist in Resources */,
+				CEA06DDE1404202000060D11 /* DayViewController.xib in Resources */,
+				CEA06DE314048E1600060D11 /* HelpViewController.xib in Resources */,
+				9DBD0B651406EB3800A91408 /* tableBG@2x.png in Resources */,
+				9D376FE81408339B008C53F5 /* classStatusBG@2x.png in Resources */,
+				9D376FEA140837A4008C53F5 /* classStatusBG2@2x.png in Resources */,
+				CE30F9A814155276002A4DC3 /* Icon.png in Resources */,
+				CE30F9AA14155291002A4DC3 /* Icon@2x.png in Resources */,
+				CE8B131E1416E1860032628C /* middleCell.png in Resources */,
+				CE8B131F1416E1860032628C /* topCell.png in Resources */,
+				CE8B13201416E1860032628C /* bottomCell.png in Resources */,
+				CE8B13321417050F0032628C /* tableBG.png in Resources */,
+				CEC9131114314A08002191AA /* SettingsView_1.xib in Resources */,
+				9D0C32FE14314B9F0026D60D /* Icon-iPad.png in Resources */,
+				9D81C93F143917B800BBF0CE /* classStatusBG3@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6045B41361B62100C43EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6045CA1361B62100C43EF1 /* main.m in Sources */,
+				CE6045CD1361B62100C43EF1 /* FAscheduleAppDelegate.m in Sources */,
+				CE6045DF1361B8A400C43EF1 /* ScheduleViewController.m in Sources */,
+				CE0788651364BC5B00387598 /* CustomCell.m in Sources */,
+				CE0788801366120900387598 /* DayViewController.m in Sources */,
+				CE5FD8531369EC3A00A860E8 /* Block.m in Sources */,
+				CE5FD85E136B791F00A860E8 /* Week.m in Sources */,
+				CE77C9D6137487420050763B /* SettingsViewController_1.m in Sources */,
+				CE77C9DD1374C96F0050763B /* SettingsViewController_2.m in Sources */,
+				CEA37B8513837ED000EE9A70 /* Time.m in Sources */,
+				CEA37B9113841D3C00EE9A70 /* SettingsViewController_3.m in Sources */,
+				CE2C41DF13F0574D00583F85 /* CustomColors.m in Sources */,
+				CE8D156A140029FB004C25AE /* Period.m in Sources */,
+				CE8D156F14009480004C25AE /* LunchViewController.m in Sources */,
+				CE91EFA3140175F70001F533 /* StudentSchedStore.m in Sources */,
+				CE91EFA6140176EF0001F533 /* StudentSched.m in Sources */,
+				CEA06DE214048E1600060D11 /* HelpViewController.m in Sources */,
+				9D08A1031408298C007ABD3F /* UINavigationBar+fadeBar.m in Sources */,
+				CE2E1A5314100AE300E0AB9D /* PagedScheduleViewController.m in Sources */,
+				CED0E1FE1429654000FCEDC4 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE6045C51361B62100C43EF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6045C61361B62100C43EF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE6045CE1361B62100C43EF1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6045CF1361B62100C43EF1 /* en */,
+			);
+			name = MainWindow.xib;
+			path = FAschedule;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D0C32FF14314D830026D60D /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		9D0C330014314D830026D60D /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reed Rosenbluth";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "909DB986-66EC-4175-B6FE-3F0B0AC327D9";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		CE6045D11361B62100C43EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6045D21361B62100C43EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE6045D41361B62100C43EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE6045D51361B62100C43EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6045B21361B62100C43EF1 /* Build configuration list for PBXProject "FAschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6045D11361B62100C43EF1 /* Debug */,
+				CE6045D21361B62100C43EF1 /* Release */,
+				9D0C32FF14314D830026D60D /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6045D31361B62100C43EF1 /* Build configuration list for PBXNativeTarget "FAschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6045D41361B62100C43EF1 /* Debug */,
+				CE6045D51361B62100C43EF1 /* Release */,
+				9D0C330014314D830026D60D /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6045AF1361B62100C43EF1 /* Project object */;
+}

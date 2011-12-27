@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Art</key>
+	<array>
+		<string>Foundations</string>
+		<string>Drawing I</string>
+		<string>Drawing II</string>
+		<string>Drawing III</string>
+		<string>Painting I</string>
+		<string>Painting II</string>
+		<string>Design I</string>
+		<string>Design II</string>
+		<string>Design III</string>
+		<string>Photography I</string>
+		<string>Photography II</string>
+		<string>Phototography III</string>
+		<string>3-D Design</string>
+		<string>Ceramics I</string>
+		<string>Ceramics II</string>
+		<string>Senior Portfolio</string>
+		<string>AP Studio Art Portofolio</string>
+	</array>
+	<key>Chinese</key>
+	<array>
+		<string>Chinese I</string>
+		<string>Chinese II</string>
+		<string>Chinese III</string>
+		<string>Chinese IV: Advance Language &amp; Cultures</string>
+		<string>AP Chinses</string>
+	</array>
+	<key>Dance</key>
+	<array>
+		<string>Dance I</string>
+		<string>Dance II</string>
+		<string>Advanced Expressions in Dance I</string>
+		<string>Advanced Expressions in Dance II</string>
+	</array>
+	<key>English</key>
+	<array>
+		<string>English 9: Literature and Composition</string>
+		<string>English 10: British Literature</string>
+		<string>English 11: American Perspectives</string>
+		<string>English 11: American Studies</string>
+		<string>AP English Literature</string>
+		<string>AP English Language and Composition</string>
+		<string>Epic Narratives: Homer, Virgil &amp; Dante</string>
+		<string>The Most Depressing Shakespeare Course Ever</string>
+		<string>Short Stories</string>
+		<string>Journalism: Introduction to Fearture Writing and Media Convergence</string>
+		<string>AP English Language and Compostion</string>
+		<string>Creative Writing</string>
+		<string>Narrative and African-American Identity</string>
+		<string>From Epic and Romance to Novel</string>
+		<string>Latin American Literature</string>
+		<string>Dramatic Literature</string>
+	</array>
+	<key>French</key>
+	<array>
+		<string>French II</string>
+		<string>French III</string>
+		<string>Honors French III</string>
+		<string>French IV: Language &amp; Cultures</string>
+		<string>Honors French IV</string>
+		<string>French Senior Seminar</string>
+		<string>AP French</string>
+		<string>Post-AP French and Francophone Literature</string>
+	</array>
+	<key>Greek</key>
+	<array>
+		<string>Ancient Greek I</string>
+		<string>Ancient Greek II</string>
+		<string>Ancient Greek IV</string>
+	</array>
+	<key>Health</key>
+	<array>
+		<string>Health Concepts</string>
+		<string>Critical Health Issues</string>
+	</array>
+	<key>History &amp; Social Science</key>
+	<array>
+		<string>Ancient Foundations of Human Civilizations</string>
+		<string>The West and the World</string>
+		<string>Honors Art History</string>
+		<string>American History</string>
+		<string>AP United States History</string>
+		<string>Art History (Honors)</string>
+		<string>AP Comparative Government and Politics</string>
+		<string>AP European History</string>
+		<string>AP Human Geography</string>
+		<string>Introduction to Economics</string>
+		<string>Practical Issues in Ethiscs: Moral Philosophy in a Modern Age</string>
+		<string>Psychology I</string>
+		<string>Psychology II</string>
+	</array>
+	<key>Latin</key>
+	<array>
+		<string>Latin II</string>
+		<string>Introductory Latin</string>
+		<string>Advanced Introductory Latin</string>
+		<string>Latin III</string>
+		<string>Latin IV: Advance Language &amp; Cultures</string>
+		<string>AP Latin</string>
+	</array>
+	<key>Mathematics</key>
+	<array>
+		<string>Algebra I</string>
+		<string>Geometry</string>
+		<string>Honors Geometry</string>
+		<string>Algebra 2 &amp; Trigonometry</string>
+		<string>Honors Algebra 2 &amp; Trigonometry</string>
+		<string>Intro to Pre-Calculus</string>
+		<string>Pre-Calculus</string>
+		<string>Calculus</string>
+		<string>AP Calculus AB</string>
+		<string>AP Calculus BC I</string>
+		<string>AP Calulus BC II</string>
+		<string>AP Statistics</string>
+	</array>
+	<key>Music</key>
+	<array>
+		<string>Wind Ensemble</string>
+		<string>Jazz Band</string>
+		<string>String Ensemble</string>
+		<string>Chamber Orchestra</string>
+		<string>Vocal Ensemble</string>
+		<string>Concert Choir</string>
+		<string>Chamber Choir</string>
+		<string>Music Theory</string>
+		<string>AP Music Theory</string>
+		<string>Music Recording Technology</string>
+		<string>Advance Music Recording Technology</string>
+		<string>Music Appreciation</string>
+		<string>Opera Appreciation</string>
+	</array>
+	<key>Physcial Education</key>
+	<array>
+		<string>Personal Fitness</string>
+		<string>Sports Education</string>
+		<string>Cardio-fitness</string>
+		<string>Weight training</string>
+		<string>Dance</string>
+		<string>Yoga</string>
+	</array>
+	<key>Religion &amp; Ethics</key>
+	<array>
+		<string>Quakersim</string>
+		<string>Community Service</string>
+		<string>Relision in American Culture</string>
+		<string>Quaker Meeting for Worship</string>
+	</array>
+	<key>Science</key>
+	<array>
+		<string>Biology</string>
+		<string>Chemistry</string>
+		<string>Honors Chemistry</string>
+		<string>Physics</string>
+		<string>Honors Physics</string>
+		<string>AP Biology</string>
+		<string>AP Chemistry</string>
+		<string>AP Physics C</string>
+		<string>Environmental Science</string>
+		<string>Field Marine Biology</string>
+		<string>Astronomy and Astrophysics</string>
+		<string>Introduction to Engineering</string>
+		<string>Marine Biology and Ecology</string>
+		<string>Earth Science and Geophysics</string>
+		<string>Human Anatomy and Physiology</string>
+		<string>Forensic Science</string>
+		<string>Science Projects I</string>
+		<string>Science Projects II</string>
+		<string>Science Projects III</string>
+	</array>
+	<key>Spanish</key>
+	<array>
+		<string>Spanish I</string>
+		<string>Spanish II</string>
+		<string>Spanish III</string>
+		<string>Honors Spanish II</string>
+		<string>Honors Spanish III</string>
+		<string>Spanish IV: Language and Cultures</string>
+		<string>Honors Spanish IV</string>
+		<string>Spanish Senior Seminar</string>
+		<string>AP Spanish</string>
+	</array>
+	<key>Technology</key>
+	<array>
+		<string>Media Slam</string>
+		<string>Robotics</string>
+		<string>Introduction to Computer Science</string>
+		<string>Intermediate Computer Science</string>
+		<string>Advance Computer Science</string>
+		<string>Design for Publication</string>
+		<string>Graphic Design I</string>
+		<string>Graphic Design II</string>
+		<string>Film Techniques and Video Editing</string>
+		<string>Music Recording Technology</string>
+		<string>Communications, Media and Culture</string>
+	</array>
+	<key>Theater</key>
+	<array>
+		<string>Theater Studies</string>
+		<string>Performing Arts</string>
+		<string>Advanced Perfoming Studies: Acting and Directing</string>
+		<string>Advance Performing Studies: History and Literature</string>
+		<string>Stagecraft I</string>
+		<string>Stagecraft II</string>
+		<string>Stagecraft III</string>
+		<string>Advance Stagecraft</string>
+		<string>Theater Projects</string>
+		<string>Playwriting</string>
+	</array>
+</dict>
+</plist>
