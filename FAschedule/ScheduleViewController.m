@@ -15,6 +15,8 @@
 #import "Time.h"
 #import "CustomColors.h"
 #import "UINavigationBar+fadeBar.h"
+#import "SettingsViewController_1.h"
+#import "RootViewController.h"
 
 NSString *weekFromDayNum(int d)
 {
@@ -50,12 +52,30 @@ NSString *weekFromDayNum(int d)
     UIImage *backgroundImage = [UIImage imageNamed:@"tableBG.png"];
     [[self tableView] setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
     [[self tableView] setShowsVerticalScrollIndicator:NO];
+    
+    UIImage *cogImage = [UIImage imageNamed:@"cogwheel"];
+    UIButton *cogButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    cogButton.bounds = CGRectMake( 0, 0, cogImage.size.width, cogImage.size.height );
+    [cogButton setBackgroundImage:cogImage forState:UIControlStateNormal];
+    [cogButton addTarget:self action:@selector(pushSettingsView) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *cogButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cogButton];
+    [cogButton setShowsTouchWhenHighlighted:YES];
+    [[self navigationItem] setRightBarButtonItem:cogButtonItem];
+    
     [super viewDidLoad];
 }
+
+- (void)pushSettingsView {
+    SettingsViewController_1 *svc1 = [[SettingsViewController_1 alloc] init];
+    [svc1 setTitle:@"settings"];
+    [[self navigationController] pushViewController:svc1 animated:YES];
+    [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setEnableLeftFoldDragging:NO];
+}
+
 - (void) viewWillAppear:(BOOL)animated
 {
-    
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:animated];
+    [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setEnableLeftFoldDragging:YES];
     UINavigationBar *nb = [[self navigationController] navigationBar];
     [nb setTintColor:[UIColor graniteColor] animated:YES];
     [self updateContent];

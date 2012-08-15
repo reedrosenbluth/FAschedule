@@ -13,6 +13,8 @@
 #import "Week.h"
 #import "Block.h"
 #import "CustomColors.h"
+#import "RootViewController.h"
+
 
 @implementation FAscheduleAppDelegate
 
@@ -26,7 +28,9 @@
     [bothWeeks loadWeek];
     DayViewController *vc = [[DayViewController alloc] init];
     [vc setTitle:@"FA schedule"];
-    UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:vc];
+    RootViewController *rootViewController = [[RootViewController alloc] init];
+    UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    [masterNav setNavigationBarHidden:YES];
     [self.window setBackgroundColor:[UIColor blackColor]];
     [self.window setRootViewController:masterNav];
     [self.window makeKeyAndVisible];

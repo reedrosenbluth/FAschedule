@@ -9,9 +9,28 @@
 /* Begin PBXBuildFile section */
 		9D08A1031408298C007ABD3F /* UINavigationBar+fadeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08A1021408298C007ABD3F /* UINavigationBar+fadeBar.m */; };
 		9D0C32FE14314B9F0026D60D /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C32FD14314B9F0026D60D /* Icon-iPad.png */; };
+		9D0C89D815D8363F0079F653 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C89D715D8363F0079F653 /* button.png */; };
+		9D0C89DB15D8452B0079F653 /* cogwheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C89DA15D8452B0079F653 /* cogwheel@2x.png */; };
+		9D1609C815D7434E00328968 /* faschedule_left2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1609C715D7434E00328968 /* faschedule_left2.png */; };
 		9D376FE514082A9A008C53F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D376FE414082A9A008C53F5 /* QuartzCore.framework */; };
 		9D376FE81408339B008C53F5 /* classStatusBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D376FE71408339B008C53F5 /* classStatusBG@2x.png */; };
 		9D376FEA140837A4008C53F5 /* classStatusBG2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D376FE9140837A4008C53F5 /* classStatusBG2@2x.png */; };
+		9D3BAE3015D73112006014BE /* faschedule_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D3BAE2F15D73111006014BE /* faschedule_left.png */; };
+		9D7C0B9315D703FC00E8DB49 /* FacingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B8415D703FC00E8DB49 /* FacingView.m */; };
+		9D7C0B9415D703FC00E8DB49 /* FoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B8615D703FC00E8DB49 /* FoldView.m */; };
+		9D7C0B9515D703FC00E8DB49 /* MultiFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B8815D703FC00E8DB49 /* MultiFoldView.m */; };
+		9D7C0B9615D703FD00E8DB49 /* PaperFoldNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B8A15D703FC00E8DB49 /* PaperFoldNavigationController.m */; };
+		9D7C0B9715D703FD00E8DB49 /* PaperFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B8C15D703FC00E8DB49 /* PaperFoldView.m */; };
+		9D7C0B9815D703FD00E8DB49 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B8E15D703FC00E8DB49 /* ShadowView.m */; };
+		9D7C0B9915D703FD00E8DB49 /* TouchThroughUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B9015D703FC00E8DB49 /* TouchThroughUIView.m */; };
+		9D7C0B9A15D703FD00E8DB49 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B9215D703FC00E8DB49 /* UIView+Screenshot.m */; };
+		9D7C0B9D15D7041400E8DB49 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0B9C15D7041400E8DB49 /* RootViewController.m */; };
+		9D7C0B9F15D704F900E8DB49 /* photo 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0B9E15D704F900E8DB49 /* photo 4.PNG */; };
+		9D7C0BA315D70D0700E8DB49 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA115D70D0600E8DB49 /* LeftViewController.m */; };
+		9D7C0BA415D70D0700E8DB49 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA215D70D0700E8DB49 /* LeftViewController.xib */; };
+		9D7C0BA615D711AC00E8DB49 /* DropshadowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA515D711AC00E8DB49 /* DropshadowLeft@2x.png */; };
+		9D7C0BA815D713D500E8DB49 /* btn-red-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA715D713D500E8DB49 /* btn-red-on@2x.png */; };
+		9D7C0BAA15D7148800E8DB49 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA915D7148800E8DB49 /* background@2x.png */; };
 		9D81C93F143917B800BBF0CE /* classStatusBG3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */; };
 		9DBD0B651406EB3800A91408 /* tableBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD0B641406EB3800A91408 /* tableBG@2x.png */; };
 		CE0788651364BC5B00387598 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0788641364BC5B00387598 /* CustomCell.m */; };
@@ -62,9 +81,50 @@
 		9D08A1011408298C007ABD3F /* UINavigationBar+fadeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+fadeBar.h"; sourceTree = "<group>"; };
 		9D08A1021408298C007ABD3F /* UINavigationBar+fadeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+fadeBar.m"; sourceTree = "<group>"; };
 		9D0C32FD14314B9F0026D60D /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		9D0C89D715D8363F0079F653 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		9D0C89DA15D8452B0079F653 /* cogwheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cogwheel@2x.png"; sourceTree = "<group>"; };
+		9D1609C715D7434E00328968 /* faschedule_left2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faschedule_left2.png; sourceTree = "<group>"; };
+		9D1609C915D7440900328968 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		9D1609CA15D7440900328968 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		9D1609CB15D7440900328968 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		9D1609CC15D7440900328968 /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		9D1609CD15D7440900328968 /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		9D1609CE15D7440900328968 /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		9D1609CF15D7440900328968 /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		9D1609D015D7440900328968 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		9D1609D115D7440900328968 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		9D1609D215D7440900328968 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		9D1609D315D7440900328968 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		9D1609D415D7440900328968 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
 		9D376FE414082A9A008C53F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9D376FE71408339B008C53F5 /* classStatusBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG@2x.png"; sourceTree = "<group>"; };
 		9D376FE9140837A4008C53F5 /* classStatusBG2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG2@2x.png"; sourceTree = "<group>"; };
+		9D3BAE2F15D73111006014BE /* faschedule_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faschedule_left.png; sourceTree = "<group>"; };
+		9D7C0B8315D703FC00E8DB49 /* FacingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacingView.h; sourceTree = "<group>"; };
+		9D7C0B8415D703FC00E8DB49 /* FacingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacingView.m; sourceTree = "<group>"; };
+		9D7C0B8515D703FC00E8DB49 /* FoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldView.h; sourceTree = "<group>"; };
+		9D7C0B8615D703FC00E8DB49 /* FoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldView.m; sourceTree = "<group>"; };
+		9D7C0B8715D703FC00E8DB49 /* MultiFoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiFoldView.h; sourceTree = "<group>"; };
+		9D7C0B8815D703FC00E8DB49 /* MultiFoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiFoldView.m; sourceTree = "<group>"; };
+		9D7C0B8915D703FC00E8DB49 /* PaperFoldNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldNavigationController.h; sourceTree = "<group>"; };
+		9D7C0B8A15D703FC00E8DB49 /* PaperFoldNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldNavigationController.m; sourceTree = "<group>"; };
+		9D7C0B8B15D703FC00E8DB49 /* PaperFoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldView.h; sourceTree = "<group>"; };
+		9D7C0B8C15D703FC00E8DB49 /* PaperFoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldView.m; sourceTree = "<group>"; };
+		9D7C0B8D15D703FC00E8DB49 /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
+		9D7C0B8E15D703FC00E8DB49 /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
+		9D7C0B8F15D703FC00E8DB49 /* TouchThroughUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchThroughUIView.h; sourceTree = "<group>"; };
+		9D7C0B9015D703FC00E8DB49 /* TouchThroughUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchThroughUIView.m; sourceTree = "<group>"; };
+		9D7C0B9115D703FC00E8DB49 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		9D7C0B9215D703FC00E8DB49 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		9D7C0B9B15D7041400E8DB49 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9D7C0B9C15D7041400E8DB49 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9D7C0B9E15D704F900E8DB49 /* photo 4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo 4.PNG"; sourceTree = "<group>"; };
+		9D7C0BA015D70D0600E8DB49 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		9D7C0BA115D70D0600E8DB49 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		9D7C0BA215D70D0700E8DB49 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		9D7C0BA515D711AC00E8DB49 /* DropshadowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DropshadowLeft@2x.png"; sourceTree = "<group>"; };
+		9D7C0BA715D713D500E8DB49 /* btn-red-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-red-on@2x.png"; sourceTree = "<group>"; };
+		9D7C0BA915D7148800E8DB49 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG3@2x.png"; sourceTree = "<group>"; };
 		9DBD0B641406EB3800A91408 /* tableBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableBG@2x.png"; sourceTree = "<group>"; };
 		CE0788631364BC5A00387598 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
@@ -147,6 +207,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D1609D515D7441700328968 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9D1609C915D7440900328968 /* SourceSansPro-Black.otf */,
+				9D1609CA15D7440900328968 /* SourceSansPro-BlackIt.otf */,
+				9D1609CB15D7440900328968 /* SourceSansPro-Bold.otf */,
+				9D1609CC15D7440900328968 /* SourceSansPro-BoldIt.otf */,
+				9D1609CD15D7440900328968 /* SourceSansPro-ExtraLight.otf */,
+				9D1609CE15D7440900328968 /* SourceSansPro-ExtraLightIt.otf */,
+				9D1609CF15D7440900328968 /* SourceSansPro-It.otf */,
+				9D1609D015D7440900328968 /* SourceSansPro-Light.otf */,
+				9D1609D115D7440900328968 /* SourceSansPro-LightIt.otf */,
+				9D1609D215D7440900328968 /* SourceSansPro-Regular.otf */,
+				9D1609D315D7440900328968 /* SourceSansPro-Semibold.otf */,
+				9D1609D415D7440900328968 /* SourceSansPro-SemiboldIt.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		9D7C0B8215D703FC00E8DB49 /* PaperFold */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C0B8315D703FC00E8DB49 /* FacingView.h */,
+				9D7C0B8415D703FC00E8DB49 /* FacingView.m */,
+				9D7C0B8515D703FC00E8DB49 /* FoldView.h */,
+				9D7C0B8615D703FC00E8DB49 /* FoldView.m */,
+				9D7C0B8715D703FC00E8DB49 /* MultiFoldView.h */,
+				9D7C0B8815D703FC00E8DB49 /* MultiFoldView.m */,
+				9D7C0B8915D703FC00E8DB49 /* PaperFoldNavigationController.h */,
+				9D7C0B8A15D703FC00E8DB49 /* PaperFoldNavigationController.m */,
+				9D7C0B8B15D703FC00E8DB49 /* PaperFoldView.h */,
+				9D7C0B8C15D703FC00E8DB49 /* PaperFoldView.m */,
+				9D7C0B8D15D703FC00E8DB49 /* ShadowView.h */,
+				9D7C0B8E15D703FC00E8DB49 /* ShadowView.m */,
+				9D7C0B8F15D703FC00E8DB49 /* TouchThroughUIView.h */,
+				9D7C0B9015D703FC00E8DB49 /* TouchThroughUIView.m */,
+				9D7C0B9115D703FC00E8DB49 /* UIView+Screenshot.h */,
+				9D7C0B9215D703FC00E8DB49 /* UIView+Screenshot.m */,
+			);
+			path = PaperFold;
+			sourceTree = "<group>";
+		};
 		CE07885713633B5200387598 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,7 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				9D0C32FD14314B9F0026D60D /* Icon-iPad.png */,
-				9D376FE414082A9A008C53F5 /* QuartzCore.framework */,
+				9D7C0B8215D703FC00E8DB49 /* PaperFold */,
 				CE6045C21361B62100C43EF1 /* FAschedule */,
 				CE6045BB1361B62100C43EF1 /* Frameworks */,
 				CE6045B91361B62100C43EF1 /* Products */,
@@ -245,6 +347,7 @@
 		CE6045BB1361B62100C43EF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D376FE414082A9A008C53F5 /* QuartzCore.framework */,
 				CE6045BC1361B62100C43EF1 /* UIKit.framework */,
 				CE6045BE1361B62100C43EF1 /* Foundation.framework */,
 				CE6045C01361B62100C43EF1 /* CoreGraphics.framework */,
@@ -257,8 +360,22 @@
 			children = (
 				CE6045CB1361B62100C43EF1 /* FAscheduleAppDelegate.h */,
 				CE6045CC1361B62100C43EF1 /* FAscheduleAppDelegate.m */,
+				9D7C0B9B15D7041400E8DB49 /* RootViewController.h */,
+				9D7C0B9C15D7041400E8DB49 /* RootViewController.m */,
+				9D7C0BA015D70D0600E8DB49 /* LeftViewController.h */,
+				9D7C0BA115D70D0600E8DB49 /* LeftViewController.m */,
+				9D7C0BA215D70D0700E8DB49 /* LeftViewController.xib */,
 				CED0E1FC1429654000FCEDC4 /* Constants.h */,
 				CED0E1FD1429654000FCEDC4 /* Constants.m */,
+				9D7C0B9E15D704F900E8DB49 /* photo 4.PNG */,
+				9D7C0BA515D711AC00E8DB49 /* DropshadowLeft@2x.png */,
+				9D7C0BA715D713D500E8DB49 /* btn-red-on@2x.png */,
+				9D7C0BA915D7148800E8DB49 /* background@2x.png */,
+				9D3BAE2F15D73111006014BE /* faschedule_left.png */,
+				9D1609C715D7434E00328968 /* faschedule_left2.png */,
+				9D0C89D715D8363F0079F653 /* button.png */,
+				9D0C89DA15D8452B0079F653 /* cogwheel@2x.png */,
+				9D1609D515D7441700328968 /* fonts */,
 				CE7C276C141BBC84007D24C5 /* Nibs */,
 				CE2A080513F1E1F0009C1F92 /* View Controllers */,
 				CE2A080713F1E218009C1F92 /* Model */,
@@ -372,6 +489,15 @@
 				CEC9131114314A08002191AA /* SettingsView_1.xib in Resources */,
 				9D0C32FE14314B9F0026D60D /* Icon-iPad.png in Resources */,
 				9D81C93F143917B800BBF0CE /* classStatusBG3@2x.png in Resources */,
+				9D7C0B9F15D704F900E8DB49 /* photo 4.PNG in Resources */,
+				9D7C0BA415D70D0700E8DB49 /* LeftViewController.xib in Resources */,
+				9D7C0BA615D711AC00E8DB49 /* DropshadowLeft@2x.png in Resources */,
+				9D7C0BA815D713D500E8DB49 /* btn-red-on@2x.png in Resources */,
+				9D7C0BAA15D7148800E8DB49 /* background@2x.png in Resources */,
+				9D3BAE3015D73112006014BE /* faschedule_left.png in Resources */,
+				9D1609C815D7434E00328968 /* faschedule_left2.png in Resources */,
+				9D0C89D815D8363F0079F653 /* button.png in Resources */,
+				9D0C89DB15D8452B0079F653 /* cogwheel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +528,16 @@
 				9D08A1031408298C007ABD3F /* UINavigationBar+fadeBar.m in Sources */,
 				CE2E1A5314100AE300E0AB9D /* PagedScheduleViewController.m in Sources */,
 				CED0E1FE1429654000FCEDC4 /* Constants.m in Sources */,
+				9D7C0B9315D703FC00E8DB49 /* FacingView.m in Sources */,
+				9D7C0B9415D703FC00E8DB49 /* FoldView.m in Sources */,
+				9D7C0B9515D703FC00E8DB49 /* MultiFoldView.m in Sources */,
+				9D7C0B9615D703FD00E8DB49 /* PaperFoldNavigationController.m in Sources */,
+				9D7C0B9715D703FD00E8DB49 /* PaperFoldView.m in Sources */,
+				9D7C0B9815D703FD00E8DB49 /* ShadowView.m in Sources */,
+				9D7C0B9915D703FD00E8DB49 /* TouchThroughUIView.m in Sources */,
+				9D7C0B9A15D703FD00E8DB49 /* UIView+Screenshot.m in Sources */,
+				9D7C0B9D15D7041400E8DB49 /* RootViewController.m in Sources */,
+				9D7C0BA315D70D0700E8DB49 /* LeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

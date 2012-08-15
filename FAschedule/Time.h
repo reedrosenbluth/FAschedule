@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#define kDateAdjust 0*3600
+#define kDateAdjust -12*3600
 
 @interface Time : NSObject {
     int totalSeconds;
