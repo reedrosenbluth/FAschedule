@@ -49,7 +49,7 @@ NSString *weekFromDayNum(int d)
 
 - (void) viewDidLoad
 {  
-    UIImage *backgroundImage = [UIImage imageNamed:@"tableBG.png"];
+    UIImage *backgroundImage = [UIImage imageNamed:@"tableBG2.png"];
     [[self tableView] setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
     [[self tableView] setShowsVerticalScrollIndicator:NO];
     
@@ -74,7 +74,7 @@ NSString *weekFromDayNum(int d)
 
 - (void) viewWillAppear:(BOOL)animated
 {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:animated];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:animated];
     [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setEnableLeftFoldDragging:YES];
     UINavigationBar *nb = [[self navigationController] navigationBar];
     [nb setTintColor:[UIColor graniteColor] animated:YES];
@@ -113,10 +113,18 @@ NSString *weekFromDayNum(int d)
     NSString *startString = [[[today objectAtIndex:[indexPath row]] startTime] hhmmString];
     NSString *endString = [[[today objectAtIndex:[indexPath row]] endTime] hhmmString];
     NSString *timeString = [NSString stringWithFormat:@"%@ - %@",startString,endString];
+    if ([[[today objectAtIndex:[indexPath row]] blockCode] isEqualToString:@"ex"]) {
+        cell.subjectLabel.text = @"Extension";
+        cell.blockLabel.hidden = YES;
+        cell.blockLabel2.hidden = YES;
+    }
+    else {
+        cell.subjectLabel.text = [[today objectAtIndex:[indexPath row]] subject];
+        cell.blockLabel.text  = [[today objectAtIndex:[indexPath row]] blockCode];
+    }
     cell.timeLabel.text = timeString;
-    cell.blockLabel.text  = [[today objectAtIndex:[indexPath row]] blockCode];
     cell.roomLabel.text = [[today objectAtIndex:[indexPath row]] room];
-    cell.subjectLabel.text = [[today objectAtIndex:[indexPath row]] subject];
+    
     if ((cell.roomLabel.text == nil) || ([cell.roomLabel.text isEqualToString: @""]))
         cell.roomHeading.hidden = YES;
     else

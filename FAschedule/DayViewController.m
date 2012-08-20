@@ -69,14 +69,14 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
+    //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
     UINavigationBar *nb = [[self navigationController] navigationBar];
     [nb setTintColor:[UIColor darkRedColor] animated:YES];
     
 }
 - (void)viewDidLoad
 {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
+    //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
     UINavigationBar *nb = [[self navigationController] navigationBar];
     [nb setTintColor:[UIColor darkRedColor] animated:YES];
     tableView_x.delegate = self;
