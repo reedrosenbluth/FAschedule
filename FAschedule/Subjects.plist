@@ -28,7 +28,7 @@
 		<string>Chinese II</string>
 		<string>Chinese III</string>
 		<string>Chinese IV: Advance Language &amp; Cultures</string>
-		<string>AP Chinses</string>
+		<string>AP Chinese</string>
 	</array>
 	<key>Dance</key>
 	<array>
@@ -59,6 +59,7 @@
 	<key>French</key>
 	<array>
 		<string>French II</string>
+		<string>Honors French II</string>
 		<string>French III</string>
 		<string>Honors French III</string>
 		<string>French IV: Language &amp; Cultures</string>
@@ -147,7 +148,7 @@
 	<array>
 		<string>Quakersim</string>
 		<string>Community Service</string>
-		<string>Relision in American Culture</string>
+		<string>Religion in American Culture</string>
 		<string>Quaker Meeting for Worship</string>
 	</array>
 	<key>Science</key>
@@ -190,7 +191,7 @@
 		<string>Robotics</string>
 		<string>Introduction to Computer Science</string>
 		<string>Intermediate Computer Science</string>
-		<string>Advance Computer Science</string>
+		<string>AP Computer Science</string>
 		<string>Design for Publication</string>
 		<string>Graphic Design I</string>
 		<string>Graphic Design II</string>
