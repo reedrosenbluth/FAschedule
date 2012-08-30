@@ -170,14 +170,6 @@
     [[self navigationController] presentModalViewController:h animated:YES];
 }
 
-- (IBAction)abPressed:(id)sender 
-{
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int weekNum = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
-    [defaults setInteger:weekNum forKey:@"a_or_b"];
-
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

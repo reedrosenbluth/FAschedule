@@ -67,7 +67,7 @@
         svc.tableView.frame = centerRect;
         NSArray *viewController = [NSArray arrayWithObject:svc];
         [_centerViewNav setViewControllers:viewController animated:NO];
-        _currentDayNum = dayNum;
+//        _currentDayNum = dayNum;
     }
     [self.paperFoldView setPaperFoldState:PaperFoldStateDefault];
 }

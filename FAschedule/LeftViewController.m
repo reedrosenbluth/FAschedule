@@ -12,6 +12,7 @@
 #import "Time.h"
 #import "Week.h"
 #import "Block.h"
+#import "WeekAB.h"
 
 @interface LeftViewController ()
 
@@ -65,7 +66,7 @@
     }
     // Adjust day of week so monday is 0, tuesday is 1, etc.
     dayOfWeek = dayOfWeek - 2;
-    int weekNum = 0; //TODO: automate
+    int weekNum  = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
     int dn = dayOfWeek + (5 * weekNum);
     FAscheduleAppDelegate *faDelegate = (FAscheduleAppDelegate *)[[UIApplication sharedApplication] delegate];
     Week *w;
