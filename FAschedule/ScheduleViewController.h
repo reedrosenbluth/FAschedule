@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @class CustomCell;
+@class ExtensionCell;
 
 NSString *weekFromDayNum(int d);
 
@@ -18,6 +19,7 @@ NSString *weekFromDayNum(int d);
     NSMutableArray *today;
     int dayNum; // 0=Monday,...,4=Friday
     IBOutlet CustomCell *loadingCell;
+    IBOutlet ExtensionCell *extLoadingCell;
 }
 
 @property (nonatomic) int dayNum;

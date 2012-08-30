@@ -71,6 +71,10 @@
 		CE91EFA3140175F70001F533 /* StudentSchedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91EFA2140175F70001F533 /* StudentSchedStore.m */; };
 		CE91EFA6140176EF0001F533 /* StudentSched.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91EFA5140176EF0001F533 /* StudentSched.m */; };
 		CE91EFAD140191E10001F533 /* Week.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE91EFAC140191E10001F533 /* Week.plist */; };
+		CE97CF8315EFDB2B00708145 /* WeekAB.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97CF8215EFDB2B00708145 /* WeekAB.m */; };
+		CE97CF8715EFE49E00708145 /* ExtensionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97CF8615EFE49E00708145 /* ExtensionCell.m */; };
+		CE97CF8915EFE5C200708145 /* ExtensionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE97CF8815EFE5C200708145 /* ExtensionCell.xib */; };
+		CE97CF8B15EFEC9900708145 /* extCellgradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE97CF8A15EFEC9900708145 /* extCellgradient@2x.png */; };
 		CEA06DDE1404202000060D11 /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA06DDD1404202000060D11 /* DayViewController.xib */; };
 		CEA06DE214048E1600060D11 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA06DE014048E1600060D11 /* HelpViewController.m */; };
 		CEA06DE314048E1600060D11 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA06DE114048E1600060D11 /* HelpViewController.xib */; };
@@ -187,6 +191,12 @@
 		CE91EFA4140176EF0001F533 /* StudentSched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSched.h; sourceTree = "<group>"; };
 		CE91EFA5140176EF0001F533 /* StudentSched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSched.m; sourceTree = "<group>"; };
 		CE91EFAC140191E10001F533 /* Week.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Week.plist; sourceTree = "<group>"; };
+		CE97CF8115EFDB2B00708145 /* WeekAB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekAB.h; sourceTree = "<group>"; };
+		CE97CF8215EFDB2B00708145 /* WeekAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekAB.m; sourceTree = "<group>"; };
+		CE97CF8515EFE49E00708145 /* ExtensionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionCell.h; sourceTree = "<group>"; };
+		CE97CF8615EFE49E00708145 /* ExtensionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionCell.m; sourceTree = "<group>"; };
+		CE97CF8815EFE5C200708145 /* ExtensionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtensionCell.xib; sourceTree = "<group>"; };
+		CE97CF8A15EFEC9900708145 /* extCellgradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "extCellgradient@2x.png"; sourceTree = "<group>"; };
 		CEA06DDD1404202000060D11 /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayViewController.xib; path = FAschedule/DayViewController.xib; sourceTree = "<group>"; };
 		CEA06DDF14048E1600060D11 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		CEA06DE014048E1600060D11 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
@@ -274,6 +284,7 @@
 				CEB62681138D49C000151951 /* fa1x.png */,
 				CEB6267E138D49A100151951 /* fa2x.png */,
 				CE5FD8401366669E00A860E8 /* cellgradient.png */,
+				CE97CF8A15EFEC9900708145 /* extCellgradient@2x.png */,
 				CE5FD83E1366640100A860E8 /* TitleBar.png */,
 				9D3F088F15DC3EBD00E0A6EB /* tableBG2@2x.png */,
 				9D7C0BA515D711AC00E8DB49 /* DropshadowLeft@2x.png */,
@@ -300,6 +311,8 @@
 				CE6045DE1361B8A300C43EF1 /* ScheduleViewController.m */,
 				CE0788631364BC5A00387598 /* CustomCell.h */,
 				CE0788641364BC5B00387598 /* CustomCell.m */,
+				CE97CF8515EFE49E00708145 /* ExtensionCell.h */,
+				CE97CF8615EFE49E00708145 /* ExtensionCell.m */,
 				CE2E1A5114100AE200E0AB9D /* PagedScheduleViewController.h */,
 				CE2E1A5214100AE200E0AB9D /* PagedScheduleViewController.m */,
 				CE77C9D3137487410050763B /* SettingsViewController_1.h */,
@@ -319,6 +332,8 @@
 		CE2A080713F1E218009C1F92 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE97CF8115EFDB2B00708145 /* WeekAB.h */,
+				CE97CF8215EFDB2B00708145 /* WeekAB.m */,
 				CE5FD8511369EC3A00A860E8 /* Block.h */,
 				CE5FD8521369EC3A00A860E8 /* Block.m */,
 				CE5FD85C136B791F00A860E8 /* Week.h */,
@@ -422,6 +437,7 @@
 				CE8D156E14009480004C25AE /* LunchViewController.xib */,
 				CEA06DE114048E1600060D11 /* HelpViewController.xib */,
 				CE0788661364BE4100387598 /* CustomCell.xib */,
+				CE97CF8815EFE5C200708145 /* ExtensionCell.xib */,
 				CE6045CE1361B62100C43EF1 /* MainWindow.xib */,
 				CE77C9D91374C5570050763B /* SettingsView_2.xib */,
 			);
@@ -518,6 +534,8 @@
 				9DF1790115DC436D0076C29A /* faschedule_left3.png in Resources */,
 				9DF1790315DC45180076C29A /* buttonp.png in Resources */,
 				9DF1790515DC46E00076C29A /* bgtexture@2x.png in Resources */,
+				CE97CF8915EFE5C200708145 /* ExtensionCell.xib in Resources */,
+				CE97CF8B15EFEC9900708145 /* extCellgradient@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +576,8 @@
 				9D7C0B9A15D703FD00E8DB49 /* UIView+Screenshot.m in Sources */,
 				9D7C0B9D15D7041400E8DB49 /* RootViewController.m in Sources */,
 				9D7C0BA315D70D0700E8DB49 /* LeftViewController.m in Sources */,
+				CE97CF8315EFDB2B00708145 /* WeekAB.m in Sources */,
+				CE97CF8715EFE49E00708145 /* ExtensionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

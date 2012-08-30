@@ -8,6 +8,7 @@
 
 #import "ScheduleViewController.h"
 #import "CustomCell.h"
+#import "ExtensionCell.h"
 #import "FAscheduleAppDelegate.h"
 #import "StudentSched.h"
 #import "Week.h"
@@ -17,6 +18,7 @@
 #import "UINavigationBar+fadeBar.h"
 #import "SettingsViewController_1.h"
 #import "RootViewController.h"
+#import "WeekAB.h"
 
 NSString *weekFromDayNum(int d)
 {
@@ -61,6 +63,9 @@ NSString *weekFromDayNum(int d)
     UIBarButtonItem *cogButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cogButton];
     [cogButton setShowsTouchWhenHighlighted:YES];
     [[self navigationItem] setRightBarButtonItem:cogButtonItem];
+   
+    UIBarButtonItem *todayButton = [[UIBarButtonItem alloc] initWithTitle:@"Today" style:UIBarButtonItemStylePlain target:self action:@selector(goToToday)];
+    [[self navigationItem] setLeftBarButtonItem:todayButton];
     
     [super viewDidLoad];
 }
@@ -70,6 +75,23 @@ NSString *weekFromDayNum(int d)
     [svc1 setTitle:@"settings"];
     [[self navigationController] pushViewController:svc1 animated:YES];
     [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setEnableLeftFoldDragging:NO];
+}
+
+- (void)goToToday {
+    NSArray *weekDaysArray = weekDays();
+    int dayOfWeek = [[[NSCalendar currentCalendar] components:NSWeekdayCalendarUnit fromDate:[NSDate date]] weekday];
+    // No Class on weekends.
+    if (dayOfWeek == 1 || dayOfWeek == 7) {
+        return;
+    }
+    // Adjust day of week so monday is 0, tuesday is 1, etc.
+    dayOfWeek = dayOfWeek - 2;
+    int weekNum = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
+    int dn = dayOfWeek + (5 * weekNum);
+    [self setToday:[schedule objectAtIndex:dn]];
+    [[self tableView] reloadData];
+    NSString *title = [NSString stringWithFormat:@"%@ - %@",[weekDaysArray objectAtIndex:(dn % 5)], weekFromDayNum(dn)];
+    [self setTitle:title];
 }
 
 - (void) viewWillAppear:(BOOL)animated
@@ -103,6 +125,21 @@ NSString *weekFromDayNum(int d)
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if ([[[today objectAtIndex:[indexPath row]] blockCode] isEqualToString:@"ex"]) {
+        ExtensionCell *extCell = (ExtensionCell *)[tableView dequeueReusableCellWithIdentifier:@"ExtensionCellIdentifier"];
+        if (extCell == nil) {
+            [[NSBundle mainBundle] loadNibNamed:@"ExtensionCell" owner:self options:nil];
+            extCell = extLoadingCell;
+            extLoadingCell = nil;
+        }
+        extCell.subjectLabel.text = @"Extension";
+        NSString *startString = [[[today objectAtIndex:[indexPath row]] startTime] hhmmString];
+        NSString *endString = [[[today objectAtIndex:[indexPath row]] endTime] hhmmString];
+        NSString *timeString = [NSString stringWithFormat:@"%@ - %@",startString,endString];
+        extCell.timeLabel.text = timeString;
+        return extCell;
+    }
+    
     static NSString *CellIdentifier = @"CustomCellIdendtifier";
     CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -113,15 +150,15 @@ NSString *weekFromDayNum(int d)
     NSString *startString = [[[today objectAtIndex:[indexPath row]] startTime] hhmmString];
     NSString *endString = [[[today objectAtIndex:[indexPath row]] endTime] hhmmString];
     NSString *timeString = [NSString stringWithFormat:@"%@ - %@",startString,endString];
-    if ([[[today objectAtIndex:[indexPath row]] blockCode] isEqualToString:@"ex"]) {
-        cell.subjectLabel.text = @"Extension";
-        cell.blockLabel.hidden = YES;
-        cell.blockLabel2.hidden = YES;
-    }
-    else {
-        cell.subjectLabel.text = [[today objectAtIndex:[indexPath row]] subject];
-        cell.blockLabel.text  = [[today objectAtIndex:[indexPath row]] blockCode];
-    }
+//    if ([[[today objectAtIndex:[indexPath row]] blockCode] isEqualToString:@"ex"]) {
+//        cell.subjectLabel.text = @"Extension";
+//        cell.blockLabel.hidden = YES;
+//        cell.blockLabel2.hidden = YES;
+//    }
+//    else {
+    cell.subjectLabel.text = [[today objectAtIndex:[indexPath row]] subject];
+    cell.blockLabel.text  = [[today objectAtIndex:[indexPath row]] blockCode];
+//    }
     cell.timeLabel.text = timeString;
     cell.roomLabel.text = [[today objectAtIndex:[indexPath row]] room];
     
@@ -139,6 +176,9 @@ NSString *weekFromDayNum(int d)
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if ([[[today objectAtIndex:[indexPath row]] blockCode] isEqualToString:@"ex"]) {
+        return 30;
+    }
     return 60;
 }
 

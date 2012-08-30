@@ -18,6 +18,7 @@
 #import "CustomColors.h"
 #import "UINavigationBar+fadeBar.h"
 #import "Time.h"
+#import "WeekAB.h"
 
 
 @implementation DayViewController
@@ -29,7 +30,6 @@
 @synthesize nextDynamicRoom;
 @synthesize classProgress;
 @synthesize tableData;
-@synthesize ab_x;
 @synthesize dayNum;
 
 - (id) init
@@ -91,15 +91,12 @@
     tableData = weekDays();
     // Check every second to see what current and next class will be.
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(update:) userInfo:nil repeats:YES]; 
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [ab_x setSelectedSegmentIndex: [defaults integerForKey:@"a_or_b"]];
-    [super viewDidLoad];    
+    [super viewDidLoad];
 }
 
 - (void)viewDidUnload
 {
     [self setTableData:nil];
-    [self setAb_x:nil];
     [self setTableView_x:nil];
     [self setNowDynamicLabel:nil];
     [self setNextDynamicLabel:nil];
@@ -143,7 +140,7 @@
     }
     // Adjust day of week so monday is 0, tuesday is 1, etc.
     dayOfWeek = dayOfWeek - 2;
-    int weekNum = [ab_x selectedSegmentIndex];
+    int weekNum = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
     int dn = dayOfWeek + (5 * weekNum);
     FAscheduleAppDelegate *delegate = (FAscheduleAppDelegate *)[[UIApplication sharedApplication] delegate];
     Week *w;
@@ -176,7 +173,8 @@
 - (IBAction)abPressed:(id)sender 
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setInteger:[ab_x selectedSegmentIndex] forKey:@"a_or_b"];
+    int weekNum = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
+    [defaults setInteger:weekNum forKey:@"a_or_b"];
 
 }
 
@@ -208,7 +206,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    int dn = [indexPath row] + (5 * [ab_x selectedSegmentIndex]);
+    int weekNum = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
+    int dn = [indexPath row] + (5 * weekNum);
     PagedScheduleViewController *psvc = [[PagedScheduleViewController alloc] init];
     [psvc setDayNum: dn];
     [[self navigationController] pushViewController:psvc animated:YES];

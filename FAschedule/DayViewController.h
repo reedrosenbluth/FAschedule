@@ -22,7 +22,6 @@
     NSString *currentRoom;
     NSString *nextSubject;
     NSString *nextRoom;
-    UISegmentedControl *ab_x;
     UITableView *tableView_x;
     UILabel *nowDynamicLabel;
     UILabel *nextDynamicLabel;
@@ -34,7 +33,6 @@
 }
 
 @property (nonatomic,strong) NSArray *tableData;
-@property (nonatomic, strong) IBOutlet UISegmentedControl *ab_x;
 @property (nonatomic, strong) IBOutlet UITableView *tableView_x;
 @property (nonatomic, strong) IBOutlet UILabel *nowDynamicLabel;
 @property (nonatomic, strong) IBOutlet UILabel *nextDynamicLabel;
@@ -46,6 +44,5 @@
 // Set the current and next class banner
 - (void) currentClass;
 - (void)help:(id)sender;
-- (IBAction)abPressed:(id)sender;
 
 @end

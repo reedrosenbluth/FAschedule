@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "UIView+Screenshot.h"
 #import "ScheduleViewController.h"
+#import "WeekAB.h"
 
 @interface RootViewController ()
 @property (nonatomic, strong) ScheduleViewController *svc0;
@@ -27,9 +28,17 @@
         [self.view addSubview:_paperFoldView];
         
         CGRect centerRect = CGRectMake(0, 0, 320, 460);
-        
+        int dayOfWeek = [[[NSCalendar currentCalendar] components:NSWeekdayCalendarUnit fromDate:[NSDate date]] weekday];
+        // No Class on weekends.
+        if (dayOfWeek == 1 || dayOfWeek == 7) {
+            dayOfWeek = 0;
+        }
+        // Adjust day of week so monday is 0, tuesday is 1, etc.
+        dayOfWeek = dayOfWeek - 2;
+        int weekNum = ([WeekAB isB:[NSDate date]]) ? 1 : 0;
+        int dn = dayOfWeek + (5 * weekNum);
         _svc0 = [[ScheduleViewController alloc] initWithStyle:UITableViewStylePlain];
-        _currentDayNum = 0;
+        _currentDayNum = dn;
         _svc0.dayNum = _currentDayNum;
         _svc0.tableView.frame = centerRect;
         _centerViewNav = [[UINavigationController alloc] initWithRootViewController:_svc0];
