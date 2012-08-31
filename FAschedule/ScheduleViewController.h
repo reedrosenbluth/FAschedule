@@ -3,7 +3,7 @@
 //  ScheduleViewController.h
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 4/22/11.
+//  Created by Reed Rosenbluth on 4/22/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

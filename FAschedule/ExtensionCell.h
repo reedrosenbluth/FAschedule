@@ -2,7 +2,7 @@
 //  ExtensionCell.h
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 8/30/12.
+//  Created by Reed Rosenbluth on 8/30/12.
 //
 //
 

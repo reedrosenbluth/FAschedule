@@ -2,7 +2,7 @@
 //  SettingsViewController_1.h
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 5/6/11.
+//  Created by Reed Rosenbluth on 5/6/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

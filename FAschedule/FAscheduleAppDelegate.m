@@ -2,13 +2,12 @@
 //  FAscheduleAppDelegate.m
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 4/22/11.
+//  Created by Reed Rosenbluth on 4/22/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "FAscheduleAppDelegate.h"
 #import "StudentSchedStore.h"
-#import "DayViewController.h"
 #import "ScheduleViewController.h"
 #import "Week.h"
 #import "Block.h"
@@ -26,8 +25,6 @@
 {
     bothWeeks = [[Week alloc] init];
     [bothWeeks loadWeek];
-    DayViewController *vc = [[DayViewController alloc] init];
-    [vc setTitle:@"FA schedule"];
     RootViewController *rootViewController = [[RootViewController alloc] init];
     UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     [masterNav setNavigationBarHidden:YES];

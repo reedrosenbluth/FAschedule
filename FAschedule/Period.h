@@ -2,7 +2,7 @@
 //  Period.h
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 8/20/11.
+//  Created by Reed Rosenbluth on 8/20/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

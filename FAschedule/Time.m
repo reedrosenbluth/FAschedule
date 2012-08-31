@@ -2,7 +2,7 @@
 //  Time.m
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 5/18/11.
+//  Created by Reed Rosenbluth on 5/18/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  Week.h
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 4/29/11.
+//  Created by Reed Rosenbluth on 4/29/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

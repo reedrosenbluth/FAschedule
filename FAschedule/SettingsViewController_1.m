@@ -2,7 +2,7 @@
 //  SettingsViewController_1.m
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 5/6/11.
+//  Created by Reed Rosenbluth on 5/6/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -45,7 +45,9 @@
     UIBarButtonItem *lunchButton = [[UIBarButtonItem alloc] initWithTitle:@"Lunch" style:UIBarButtonItemStylePlain target:self action:@selector(lunchSettings:)];
     self.navigationItem.rightBarButtonItem = lunchButton; 
     [self.tv reloadData];
-    [[self tv] setBackgroundColor:[UIColor scrollViewTexturedBackgroundColor]];
+    UIImage *image = [UIImage imageNamed:@"tableBG2@2x"];
+    UIColor *c = [UIColor colorWithPatternImage:image];
+    [[self tv] setBackgroundColor:c];
     [super viewDidLoad];
 }
 

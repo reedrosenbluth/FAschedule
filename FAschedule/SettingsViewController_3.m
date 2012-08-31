@@ -2,7 +2,7 @@
 //  SettingsViewController_3.m
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 5/18/11.
+//  Created by Reed Rosenbluth on 5/18/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -34,11 +34,23 @@
 - (void)viewDidLoad
 {
     dataSource = weekDays();
-    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] 
-                                   initWithTitle:@"Save Block"style:UIBarButtonItemStyleBordered
-                                   target:self action:@selector(save:)];
-    self.navigationItem.rightBarButtonItem = saveButton;
+    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(save:)];
+    UIBarButtonItem *clearButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(clear:)];
+
+    NSArray *items = [NSArray arrayWithObjects:saveButton, clearButton, nil];
+    [self.navigationItem setRightBarButtonItems:items];
     [super viewDidLoad];
+}
+
+- (void)clear:(id)sender {
+    FAscheduleAppDelegate *appDelegate = (FAscheduleAppDelegate *)[[UIApplication sharedApplication] delegate];
+    StudentSchedStore *store = [StudentSchedStore defaultStore];
+    StudentSched *sched = [store blockForKey: blockCode];
+    [sched setSubject:@""];
+    [sched setRoom:@""];
+       [[appDelegate bothWeeks] loadWeek];
+    [self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:1] animated:YES];
+
 }
 
 - (void) save:(id)sender

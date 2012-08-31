@@ -2,7 +2,7 @@
 //  SettingsViewController_2.m
 //  FAschedule
 //
-//  Created by Jeffrey Rosenbluth on 5/6/11.
+//  Created by Reed Rosenbluth on 5/6/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -54,6 +54,9 @@
     self.subjects = dict;
     NSArray *array = [[subjects allKeys] sortedArrayUsingSelector:@selector(compare:)];
     self.keys = array;
+    UIImage *image = [UIImage imageNamed:@"tableBG2@2x"];
+    UIColor *c = [UIColor colorWithPatternImage:image];
+    [self.view setBackgroundColor:c];
     [super viewDidLoad];
 }
 
