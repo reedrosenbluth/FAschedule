@@ -62,10 +62,29 @@ NSString *weekFromDayNum(int d)
     [cogButton addTarget:self action:@selector(pushSettingsView) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *cogButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cogButton];
     [cogButton setShowsTouchWhenHighlighted:YES];
-    [[self navigationItem] setRightBarButtonItem:cogButtonItem];
-   
-    UIBarButtonItem *todayButton = [[UIBarButtonItem alloc] initWithTitle:@"Today" style:UIBarButtonItemStylePlain target:self action:@selector(goToToday)];
-    [[self navigationItem] setLeftBarButtonItem:todayButton];
+    UIImage *calImage = [UIImage imageNamed:@"calendar"];
+    UIButton *todayButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    todayButton.bounds = CGRectMake(0, 0, calImage.size.width, calImage.size.height-2);
+    [todayButton setBackgroundImage:calImage forState:UIControlStateNormal];
+    [todayButton addTarget:self action:@selector(goToToday) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *todayItem = [[UIBarButtonItem alloc] initWithCustomView:todayButton];
+    [todayButton setShowsTouchWhenHighlighted:YES];
+    UIBarButtonItem *space = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    space.width = 15;
+    NSArray *rightBarButtons = [NSArray arrayWithObjects:cogButtonItem, space, todayItem, nil];
+    [[self navigationItem] setRightBarButtonItems:rightBarButtons];
+    
+    UIImage *lines = [UIImage imageNamed:@"show_lines"];
+    UIButton *slideButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    slideButton.bounds = CGRectMake(0, 0, lines.size.width, lines.size.height);
+    [slideButton setBackgroundImage:lines forState:UIControlStateNormal];
+    [slideButton addTarget:self action:nil forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *slideItem = [[UIBarButtonItem alloc] initWithCustomView:slideButton];
+    [slideButton setShowsTouchWhenHighlighted:YES];
+    UIBarButtonItem *leftSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    leftSpace.width = 8;
+    NSArray *leftBarButtons = [NSArray arrayWithObjects:leftSpace, slideItem, nil];
+    [[self navigationItem] setLeftBarButtonItems:leftBarButtons];
     
     [super viewDidLoad];
 }
@@ -92,6 +111,7 @@ NSString *weekFromDayNum(int d)
     [[self tableView] reloadData];
     NSString *title = [NSString stringWithFormat:@"%@ - %@",[weekDaysArray objectAtIndex:(dn % 5)], weekFromDayNum(dn)];
     [self setTitle:title];
+    self.dayNum = dn;
 }
 
 - (void) viewWillAppear:(BOOL)animated
@@ -137,6 +157,11 @@ NSString *weekFromDayNum(int d)
         NSString *endString = [[[today objectAtIndex:[indexPath row]] endTime] hhmmString];
         NSString *timeString = [NSString stringWithFormat:@"%@ - %@",startString,endString];
         extCell.timeLabel.text = timeString;
+        int dayOfWeek = [[[NSCalendar currentCalendar] components:NSWeekdayCalendarUnit fromDate:[NSDate date]] weekday];
+        if ((dayOfWeek - 2) == dayNum && [[today objectAtIndex:[indexPath row]] isCurrentBlock])
+            extCell.subjectLabel.textColor = [UIColor salmonColor];
+        else
+            extCell.subjectLabel.textColor = [UIColor whiteColor];
         return extCell;
     }
     
@@ -150,15 +175,8 @@ NSString *weekFromDayNum(int d)
     NSString *startString = [[[today objectAtIndex:[indexPath row]] startTime] hhmmString];
     NSString *endString = [[[today objectAtIndex:[indexPath row]] endTime] hhmmString];
     NSString *timeString = [NSString stringWithFormat:@"%@ - %@",startString,endString];
-//    if ([[[today objectAtIndex:[indexPath row]] blockCode] isEqualToString:@"ex"]) {
-//        cell.subjectLabel.text = @"Extension";
-//        cell.blockLabel.hidden = YES;
-//        cell.blockLabel2.hidden = YES;
-//    }
-//    else {
     cell.subjectLabel.text = [[today objectAtIndex:[indexPath row]] subject];
     cell.blockLabel.text  = [[today objectAtIndex:[indexPath row]] blockCode];
-//    }
     cell.timeLabel.text = timeString;
     cell.roomLabel.text = [[today objectAtIndex:[indexPath row]] room];
     

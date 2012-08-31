@@ -32,12 +32,16 @@
                                  @"Assembly", @"Assembly",
                                  @"Workship", @"Worship",
                                  @"Advisory", @"Advisory",
-                                 @"Bonus", @"Bonus", nil];
+                                 @"Bonus", @"Bonus",
+                                 @"Extension", @"ex",
+                                 nil];
     NSDictionary *roomDict = [NSDictionary dictionaryWithObjectsAndKeys:
                               @"Theater", @"Assembly",
                               @"Meeting House", @"Worship",
                               @"Home Room", @"Advisory",
-                              @"", @"Bonus", nil];
+                              @"", @"Bonus",
+                              @"", @"ex",
+                              nil];
     NSSet *set = [NSSet setWithArray:[subjectDict allKeys]];
     [week removeAllObjects];
     for (int i=0; i<10; i++) {
