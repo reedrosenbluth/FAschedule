@@ -45,9 +45,6 @@
     UIBarButtonItem *lunchButton = [[UIBarButtonItem alloc] initWithTitle:@"Lunch" style:UIBarButtonItemStylePlain target:self action:@selector(lunchSettings:)];
     self.navigationItem.rightBarButtonItem = lunchButton; 
     [self.tv reloadData];
-    UIImage *image = [UIImage imageNamed:@"tableBG2@2x"];
-    UIColor *c = [UIColor colorWithPatternImage:image];
-    [[self tv] setBackgroundColor:c];
     [super viewDidLoad];
 }
 

@@ -31,7 +31,7 @@
         int dayOfWeek = [[[NSCalendar currentCalendar] components:NSWeekdayCalendarUnit fromDate:[NSDate date]] weekday];
         // No Class on weekends.
         if (dayOfWeek == 1 || dayOfWeek == 7) {
-            dayOfWeek = 0;
+            dayOfWeek = 2;
         }
         // Adjust day of week so monday is 0, tuesday is 1, etc.
         dayOfWeek = dayOfWeek - 2;
