@@ -78,7 +78,7 @@ NSString *weekFromDayNum(int d)
     UIButton *slideButton = [UIButton buttonWithType:UIButtonTypeCustom];
     slideButton.bounds = CGRectMake(0, 0, lines.size.width, lines.size.height);
     [slideButton setBackgroundImage:lines forState:UIControlStateNormal];
-    [slideButton addTarget:self action:nil forControlEvents:UIControlEventTouchUpInside];
+    [slideButton addTarget:self action:@selector(chooseDay) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *slideItem = [[UIBarButtonItem alloc] initWithCustomView:slideButton];
     [slideButton setShowsTouchWhenHighlighted:YES];
     UIBarButtonItem *leftSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
@@ -87,6 +87,15 @@ NSString *weekFromDayNum(int d)
     [[self navigationItem] setLeftBarButtonItems:leftBarButtons];
     
     [super viewDidLoad];
+}
+
+- (void)chooseDay {
+    PaperFoldState state = [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] state];
+    if (state == PaperFoldStateLeftUnfolded) {
+        [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setPaperFoldState:PaperFoldStateRightUnfolded];
+    } else {
+        [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setPaperFoldState:PaperFoldStateLeftUnfolded];
+    }
 }
 
 - (void)pushSettingsView {
@@ -101,7 +110,7 @@ NSString *weekFromDayNum(int d)
     int dayOfWeek = [[[NSCalendar currentCalendar] components:NSWeekdayCalendarUnit fromDate:[NSDate date]] weekday];
     // No Class on weekends.
     if (dayOfWeek == 1 || dayOfWeek == 7) {
-        return;
+        dayOfWeek = 2;
     }
     // Adjust day of week so monday is 0, tuesday is 1, etc.
     dayOfWeek = dayOfWeek - 2;
