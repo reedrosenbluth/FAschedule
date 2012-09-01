@@ -55,14 +55,14 @@ NSString *weekFromDayNum(int d)
     [[self tableView] setBackgroundColor:[UIColor colorWithPatternImage:backgroundImage]];
     [[self tableView] setShowsVerticalScrollIndicator:NO];
     
-    UIImage *cogImage = [UIImage imageNamed:@"cogwheel"];
+    UIImage *cogImage = [UIImage imageNamed:@"cog"];
     UIButton *cogButton = [UIButton buttonWithType:UIButtonTypeCustom];
     cogButton.bounds = CGRectMake( 0, 0, cogImage.size.width, cogImage.size.height );
     [cogButton setBackgroundImage:cogImage forState:UIControlStateNormal];
     [cogButton addTarget:self action:@selector(pushSettingsView) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *cogButtonItem = [[UIBarButtonItem alloc] initWithCustomView:cogButton];
     [cogButton setShowsTouchWhenHighlighted:YES];
-    UIImage *calImage = [UIImage imageNamed:@"calendar"];
+    UIImage *calImage = [UIImage imageNamed:@"today"];
     UIButton *todayButton = [UIButton buttonWithType:UIButtonTypeCustom];
     todayButton.bounds = CGRectMake(0, 0, calImage.size.width, calImage.size.height-2);
     [todayButton setBackgroundImage:calImage forState:UIControlStateNormal];
@@ -74,7 +74,7 @@ NSString *weekFromDayNum(int d)
     NSArray *rightBarButtons = [NSArray arrayWithObjects:cogButtonItem, space, todayItem, nil];
     [[self navigationItem] setRightBarButtonItems:rightBarButtons];
     
-    UIImage *lines = [UIImage imageNamed:@"show_lines"];
+    UIImage *lines = [UIImage imageNamed:@"menu"];
     UIButton *slideButton = [UIButton buttonWithType:UIButtonTypeCustom];
     slideButton.bounds = CGRectMake(0, 0, lines.size.width, lines.size.height);
     [slideButton setBackgroundImage:lines forState:UIControlStateNormal];

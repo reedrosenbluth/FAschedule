@@ -35,9 +35,12 @@
 		9D81C93F143917B800BBF0CE /* classStatusBG3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */; };
 		9DC2E7B215DB3F2A005757EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC2E7B115DB3F2A005757EF /* icon.png */; };
 		9DC2E7B415DB3F2E005757EF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC2E7B315DB3F2E005757EF /* icon@2x.png */; };
-		9DF1790115DC436D0076C29A /* faschedule_left3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1790015DC436D0076C29A /* faschedule_left3.png */; };
 		9DF1790315DC45180076C29A /* buttonp.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1790215DC45180076C29A /* buttonp.png */; };
 		9DF1790515DC46E00076C29A /* bgtexture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1790415DC46E00076C29A /* bgtexture@2x.png */; };
+		9DFDF81315F2703000EBB84C /* today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDF81115F2703000EBB84C /* today@2x.png */; };
+		9DFDF81415F2703000EBB84C /* cog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDF81215F2703000EBB84C /* cog@2x.png */; };
+		9DFDF81915F272DF00EBB84C /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDF81815F272DF00EBB84C /* menu@2x.png */; };
+		9DFDF81B15F275D400EBB84C /* faschedule_left3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDF81A15F275D400EBB84C /* faschedule_left3@2x.png */; };
 		CE0788651364BC5B00387598 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0788641364BC5B00387598 /* CustomCell.m */; };
 		CE0788671364BE4100387598 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0788661364BE4100387598 /* CustomCell.xib */; };
 		CE2C41DF13F0574D00583F85 /* CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C41DE13F0574D00583F85 /* CustomColors.m */; };
@@ -137,9 +140,12 @@
 		9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG3@2x.png"; sourceTree = "<group>"; };
 		9DC2E7B115DB3F2A005757EF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		9DC2E7B315DB3F2E005757EF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
-		9DF1790015DC436D0076C29A /* faschedule_left3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faschedule_left3.png; sourceTree = "<group>"; };
 		9DF1790215DC45180076C29A /* buttonp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonp.png; sourceTree = "<group>"; };
 		9DF1790415DC46E00076C29A /* bgtexture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgtexture@2x.png"; sourceTree = "<group>"; };
+		9DFDF81115F2703000EBB84C /* today@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today@2x.png"; sourceTree = "<group>"; };
+		9DFDF81215F2703000EBB84C /* cog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog@2x.png"; sourceTree = "<group>"; };
+		9DFDF81815F272DF00EBB84C /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		9DFDF81A15F275D400EBB84C /* faschedule_left3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faschedule_left3@2x.png"; sourceTree = "<group>"; };
 		CE0788631364BC5A00387598 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		CE0788641364BC5B00387598 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		CE0788661364BE4100387598 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = FAschedule/CustomCell.xib; sourceTree = "<group>"; };
@@ -269,6 +275,10 @@
 		CE07885713633B5200387598 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9DFDF81A15F275D400EBB84C /* faschedule_left3@2x.png */,
+				9DFDF81815F272DF00EBB84C /* menu@2x.png */,
+				9DFDF81115F2703000EBB84C /* today@2x.png */,
+				9DFDF81215F2703000EBB84C /* cog@2x.png */,
 				CE9827A215F12C1200B46639 /* show_lines@2x.png */,
 				CE98279F15F1298000B46639 /* calendar@2x.png */,
 				9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */,
@@ -295,7 +305,6 @@
 				9DF1790215DC45180076C29A /* buttonp.png */,
 				9D0C89DA15D8452B0079F653 /* cogwheel@2x.png */,
 				9D3F088715DC350C00E0A6EB /* cellbg2@2x.png */,
-				9DF1790015DC436D0076C29A /* faschedule_left3.png */,
 				9DF1790415DC46E00076C29A /* bgtexture@2x.png */,
 				9DC2E7B315DB3F2E005757EF /* icon@2x.png */,
 				9DC2E7B115DB3F2A005757EF /* icon.png */,
@@ -532,13 +541,16 @@
 				9DC2E7B415DB3F2E005757EF /* icon@2x.png in Resources */,
 				9D3F088815DC350C00E0A6EB /* cellbg2@2x.png in Resources */,
 				9D3F089015DC3EBD00E0A6EB /* tableBG2@2x.png in Resources */,
-				9DF1790115DC436D0076C29A /* faschedule_left3.png in Resources */,
 				9DF1790315DC45180076C29A /* buttonp.png in Resources */,
 				9DF1790515DC46E00076C29A /* bgtexture@2x.png in Resources */,
 				CE97CF8915EFE5C200708145 /* ExtensionCell.xib in Resources */,
 				CE97CF8B15EFEC9900708145 /* extCellgradient@2x.png in Resources */,
 				CE9827A015F1298000B46639 /* calendar@2x.png in Resources */,
 				CE9827A315F12C1200B46639 /* show_lines@2x.png in Resources */,
+				9DFDF81315F2703000EBB84C /* today@2x.png in Resources */,
+				9DFDF81415F2703000EBB84C /* cog@2x.png in Resources */,
+				9DFDF81915F272DF00EBB84C /* menu@2x.png in Resources */,
+				9DFDF81B15F275D400EBB84C /* faschedule_left3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +637,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reed Rosenbluth";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reed Rosenbluth";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -633,7 +646,8 @@
 				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "909DB986-66EC-4175-B6FE-3F0B0AC327D9";
+				PROVISIONING_PROFILE = "7DFA0433-DDA0-4210-95D6-217C0CAFECEB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7DFA0433-DDA0-4210-95D6-217C0CAFECEB";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -695,6 +709,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
@@ -702,6 +718,8 @@
 				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

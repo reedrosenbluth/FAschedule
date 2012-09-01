@@ -151,6 +151,10 @@
 		<string>Religion in American Culture</string>
 		<string>Quaker Meeting for Worship</string>
 	</array>
+	<key>Other</key>
+	<array>
+		<string>Study Hall</string>
+	</array>
 	<key>Science</key>
 	<array>
 		<string>Biology</string>

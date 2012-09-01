@@ -60,7 +60,6 @@
 }
 
 - (void)switchToDay:(int)dayNum {
-    if (dayNum != _currentDayNum) {
         ScheduleViewController *svc = [[ScheduleViewController alloc] initWithStyle:UITableViewStylePlain];
         CGRect centerRect = CGRectMake(0, 0, 320, 460);
         svc.dayNum = dayNum;
@@ -68,7 +67,6 @@
         NSArray *viewController = [NSArray arrayWithObject:svc];
         [_centerViewNav setViewControllers:viewController animated:NO];
 //        _currentDayNum = dayNum; DO NOT UNCOMMENT THIS IS a BUG
-    }
     [self.paperFoldView setPaperFoldState:PaperFoldStateDefault];
 }
 
