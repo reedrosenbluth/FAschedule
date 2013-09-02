@@ -30,7 +30,7 @@
     StudentSchedStore *store = [StudentSchedStore defaultStore];
     NSDictionary *subjectDict = [NSDictionary dictionaryWithObjectsAndKeys:
                                  @"Assembly", @"Assembly",
-                                 @"Workship", @"Worship",
+                                 @"Meeting for Worship", @"Worship",
                                  @"Advisory", @"Advisory",
                                  @"Bonus", @"Bonus",
                                  @"Extension", @"ex",

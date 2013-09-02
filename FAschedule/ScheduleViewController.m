@@ -125,7 +125,7 @@ NSString *weekFromDayNum(int d)
 
 - (void) viewWillAppear:(BOOL)animated
 {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:animated];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:animated];
     [[(RootViewController *)[self.navigationController parentViewController] paperFoldView] setEnableLeftFoldDragging:YES];
     UINavigationBar *nb = [[self navigationController] navigationBar];
     [nb setTintColor:[UIColor graniteColor] animated:YES];

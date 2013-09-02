@@ -33,8 +33,12 @@
 		9D7C0BA815D713D500E8DB49 /* btn-red-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA715D713D500E8DB49 /* btn-red-on@2x.png */; };
 		9D7C0BAA15D7148800E8DB49 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0BA915D7148800E8DB49 /* background@2x.png */; };
 		9D81C93F143917B800BBF0CE /* classStatusBG3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */; };
-		9DC2E7B215DB3F2A005757EF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC2E7B115DB3F2A005757EF /* icon.png */; };
-		9DC2E7B415DB3F2E005757EF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC2E7B315DB3F2E005757EF /* icon@2x.png */; };
+		9D83F1E8160E6B0100AA084A /* circleBGTall.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D83F1E7160E6B0100AA084A /* circleBGTall.png */; };
+		9DA7FA2915F3CC7300A0C482 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7FA2815F3CC7300A0C482 /* icon@2x.png */; };
+		9DA7FA2B15F3CCC100A0C482 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7FA2A15F3CCC100A0C482 /* icon.png */; };
+		9DB887BB15F3C45A0037A862 /* circlebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB887BA15F3C45A0037A862 /* circlebg.png */; };
+		9DD45DAE160E5B200053DC24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD45DAD160E5B200053DC24 /* Default-568h@2x.png */; };
+		9DD45DB1160E5E130053DC24 /* LeftViewController~iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD45DB0160E5E130053DC24 /* LeftViewController~iPhone5.xib */; };
 		9DF1790315DC45180076C29A /* buttonp.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1790215DC45180076C29A /* buttonp.png */; };
 		9DF1790515DC46E00076C29A /* bgtexture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF1790415DC46E00076C29A /* bgtexture@2x.png */; };
 		9DFDF81315F2703000EBB84C /* today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDF81115F2703000EBB84C /* today@2x.png */; };
@@ -44,8 +48,6 @@
 		CE0788651364BC5B00387598 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0788641364BC5B00387598 /* CustomCell.m */; };
 		CE0788671364BE4100387598 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0788661364BE4100387598 /* CustomCell.xib */; };
 		CE2C41DF13F0574D00583F85 /* CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C41DE13F0574D00583F85 /* CustomColors.m */; };
-		CE30F9A814155276002A4DC3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE30F9A714155276002A4DC3 /* Icon.png */; };
-		CE30F9AA14155291002A4DC3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE30F9A914155291002A4DC3 /* Icon@2x.png */; };
 		CE346E481376EA7600833E8B /* Subjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE346E471376EA7600833E8B /* Subjects.plist */; };
 		CE5FD83F1366640100A860E8 /* TitleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5FD83E1366640100A860E8 /* TitleBar.png */; };
 		CE5FD8411366669E00A860E8 /* cellgradient.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5FD8401366669E00A860E8 /* cellgradient.png */; };
@@ -138,8 +140,12 @@
 		9D7C0BA715D713D500E8DB49 /* btn-red-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-red-on@2x.png"; sourceTree = "<group>"; };
 		9D7C0BA915D7148800E8DB49 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		9D81C93E143917B800BBF0CE /* classStatusBG3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classStatusBG3@2x.png"; sourceTree = "<group>"; };
-		9DC2E7B115DB3F2A005757EF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
-		9DC2E7B315DB3F2E005757EF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		9D83F1E7160E6B0100AA084A /* circleBGTall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleBGTall.png; sourceTree = "<group>"; };
+		9DA7FA2815F3CC7300A0C482 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9DA7FA2A15F3CCC100A0C482 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9DB887BA15F3C45A0037A862 /* circlebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlebg.png; sourceTree = "<group>"; };
+		9DD45DAD160E5B200053DC24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9DD45DB0160E5E130053DC24 /* LeftViewController~iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "LeftViewController~iPhone5.xib"; path = "FAschedule/LeftViewController~iPhone5.xib"; sourceTree = "<group>"; };
 		9DF1790215DC45180076C29A /* buttonp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonp.png; sourceTree = "<group>"; };
 		9DF1790415DC46E00076C29A /* bgtexture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgtexture@2x.png"; sourceTree = "<group>"; };
 		9DFDF81115F2703000EBB84C /* today@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today@2x.png"; sourceTree = "<group>"; };
@@ -151,8 +157,6 @@
 		CE0788661364BE4100387598 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = FAschedule/CustomCell.xib; sourceTree = "<group>"; };
 		CE2C41DD13F0574D00583F85 /* CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColors.h; sourceTree = "<group>"; };
 		CE2C41DE13F0574D00583F85 /* CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColors.m; sourceTree = "<group>"; };
-		CE30F9A714155276002A4DC3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
-		CE30F9A914155291002A4DC3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		CE346E471376EA7600833E8B /* Subjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Subjects.plist; sourceTree = "<group>"; };
 		CE5FD83E1366640100A860E8 /* TitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleBar.png; sourceTree = "<group>"; };
 		CE5FD8401366669E00A860E8 /* cellgradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellgradient.png; sourceTree = "<group>"; };
@@ -275,6 +279,8 @@
 		CE07885713633B5200387598 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9D83F1E7160E6B0100AA084A /* circleBGTall.png */,
+				9DB887BA15F3C45A0037A862 /* circlebg.png */,
 				9DFDF81A15F275D400EBB84C /* faschedule_left3@2x.png */,
 				9DFDF81815F272DF00EBB84C /* menu@2x.png */,
 				9DFDF81115F2703000EBB84C /* today@2x.png */,
@@ -285,8 +291,6 @@
 				CE8B131B1416E1860032628C /* middleCell.png */,
 				CE8B131C1416E1860032628C /* topCell.png */,
 				CE8B131D1416E1860032628C /* bottomCell.png */,
-				CE30F9A914155291002A4DC3 /* Icon@2x.png */,
-				CE30F9A714155276002A4DC3 /* Icon.png */,
 				9D376FE71408339B008C53F5 /* classStatusBG@2x.png */,
 				9D376FE9140837A4008C53F5 /* classStatusBG2@2x.png */,
 				CE8B13311417050E0032628C /* tableBG.png */,
@@ -306,8 +310,6 @@
 				9D0C89DA15D8452B0079F653 /* cogwheel@2x.png */,
 				9D3F088715DC350C00E0A6EB /* cellbg2@2x.png */,
 				9DF1790415DC46E00076C29A /* bgtexture@2x.png */,
-				9DC2E7B315DB3F2E005757EF /* icon@2x.png */,
-				9DC2E7B115DB3F2A005757EF /* icon.png */,
 				9D0C32FD14314B9F0026D60D /* Icon-iPad.png */,
 			);
 			name = Images;
@@ -373,6 +375,9 @@
 		CE6045AD1361B62100C43EF1 = {
 			isa = PBXGroup;
 			children = (
+				9DD45DAD160E5B200053DC24 /* Default-568h@2x.png */,
+				9DA7FA2A15F3CCC100A0C482 /* icon.png */,
+				9DA7FA2815F3CC7300A0C482 /* icon@2x.png */,
 				CE6045C21361B62100C43EF1 /* FAschedule */,
 				CE6045BB1361B62100C43EF1 /* Frameworks */,
 				CE6045B91361B62100C43EF1 /* Products */,
@@ -433,6 +438,7 @@
 			isa = PBXGroup;
 			children = (
 				9D7C0BA215D70D0700E8DB49 /* LeftViewController.xib */,
+				9DD45DB0160E5E130053DC24 /* LeftViewController~iPhone5.xib */,
 				CEC9130F14314A08002191AA /* SettingsView_1.xib */,
 				CE8D156E14009480004C25AE /* LunchViewController.xib */,
 				CEA06DE114048E1600060D11 /* HelpViewController.xib */,
@@ -520,8 +526,6 @@
 				CEA06DE314048E1600060D11 /* HelpViewController.xib in Resources */,
 				9D376FE81408339B008C53F5 /* classStatusBG@2x.png in Resources */,
 				9D376FEA140837A4008C53F5 /* classStatusBG2@2x.png in Resources */,
-				CE30F9A814155276002A4DC3 /* Icon.png in Resources */,
-				CE30F9AA14155291002A4DC3 /* Icon@2x.png in Resources */,
 				CE8B131E1416E1860032628C /* middleCell.png in Resources */,
 				CE8B131F1416E1860032628C /* topCell.png in Resources */,
 				CE8B13201416E1860032628C /* bottomCell.png in Resources */,
@@ -537,8 +541,6 @@
 				9D1609C815D7434E00328968 /* faschedule_left2.png in Resources */,
 				9D0C89D815D8363F0079F653 /* button.png in Resources */,
 				9D0C89DB15D8452B0079F653 /* cogwheel@2x.png in Resources */,
-				9DC2E7B215DB3F2A005757EF /* icon.png in Resources */,
-				9DC2E7B415DB3F2E005757EF /* icon@2x.png in Resources */,
 				9D3F088815DC350C00E0A6EB /* cellbg2@2x.png in Resources */,
 				9D3F089015DC3EBD00E0A6EB /* tableBG2@2x.png in Resources */,
 				9DF1790315DC45180076C29A /* buttonp.png in Resources */,
@@ -551,6 +553,12 @@
 				9DFDF81415F2703000EBB84C /* cog@2x.png in Resources */,
 				9DFDF81915F272DF00EBB84C /* menu@2x.png in Resources */,
 				9DFDF81B15F275D400EBB84C /* faschedule_left3@2x.png in Resources */,
+				9DB887BB15F3C45A0037A862 /* circlebg.png in Resources */,
+				9DA7FA2915F3CC7300A0C482 /* icon@2x.png in Resources */,
+				9DA7FA2B15F3CCC100A0C482 /* icon.png in Resources */,
+				9DD45DAE160E5B200053DC24 /* Default-568h@2x.png in Resources */,
+				9DD45DB1160E5E130053DC24 /* LeftViewController~iPhone5.xib in Resources */,
+				9D83F1E8160E6B0100AA084A /* circleBGTall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,10 +652,10 @@
 				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7DFA0433-DDA0-4210-95D6-217C0CAFECEB";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7DFA0433-DDA0-4210-95D6-217C0CAFECEB";
+				PROVISIONING_PROFILE = "216A2536-A2DD-4702-BFE7-0946691B4B29";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "216A2536-A2DD-4702-BFE7-0946691B4B29";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -691,14 +699,18 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -709,17 +721,17 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reed Rosenbluth";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reed Rosenbluth";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FAschedule/FAschedule-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "FAschedule/FAschedule-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "3F973DD7-8B9F-4746-A26B-F7A009BBAD62";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3F973DD7-8B9F-4746-A26B-F7A009BBAD62";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

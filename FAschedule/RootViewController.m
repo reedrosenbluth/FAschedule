@@ -45,7 +45,12 @@
         [self addChildViewController:_centerViewNav];
         [_paperFoldView setCenterContentView:[_centerViewNav view]];
         
-        _leftViewController = [[LeftViewController alloc] initWithNibName:nil bundle:nil];
+        if ([UIScreen mainScreen].bounds.size.height < 500) {
+            _leftViewController = [[LeftViewController alloc] initWithNibName:@"LeftViewController" bundle:nil];
+        }
+        else {
+            _leftViewController = [[LeftViewController alloc] initWithNibName:@"LeftViewController~iPhone5" bundle:nil];
+        }
         [_leftViewController setDelegate:self];
         [self addChildViewController:_leftViewController];
         [_paperFoldView setLeftFoldContentView:[_leftViewController view]];

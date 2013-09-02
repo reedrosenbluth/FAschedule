@@ -22,7 +22,7 @@
 
 + (UIColor *)salmonColor
 {
-    return [UIColor colorWithRed:1 green:.4 blue:.4 alpha:1];
+    return [UIColor colorWithRed:53.0/255 green:164.0/255 blue:237.0/255 alpha:1];
 }
 
 @end

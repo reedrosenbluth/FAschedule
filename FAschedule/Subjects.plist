@@ -90,10 +90,12 @@
 		<string>AP Comparative Government and Politics</string>
 		<string>AP European History</string>
 		<string>AP Human Geography</string>
+		<string>Revolutions</string>
 		<string>Introduction to Economics</string>
-		<string>Practical Issues in Ethiscs: Moral Philosophy in a Modern Age</string>
+		<string>Practical Issues in Ethics: Moral Philosophy in a Modern Age</string>
 		<string>Psychology I</string>
 		<string>Psychology II</string>
+		<string>AP Psychology</string>
 	</array>
 	<key>Latin</key>
 	<array>
@@ -149,6 +151,7 @@
 		<string>Quakersim</string>
 		<string>Community Service</string>
 		<string>Religion in American Culture</string>
+		<string>REEL Diversity</string>
 		<string>Quaker Meeting for Worship</string>
 	</array>
 	<key>Other</key>

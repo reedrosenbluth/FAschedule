@@ -36,9 +36,9 @@
 - (void)viewDidLoad
 {             
     segmentedControls = [[NSMutableArray alloc] initWithObjects:aM,aT,aW,aTh,aF,bM,bT,bW,bTh,bF,nil];
-    UIImage *image = [UIImage imageNamed:@"tableBG2@2x"];
-    UIColor *c = [UIColor colorWithPatternImage:image];
-    [self.view setBackgroundColor:c];
+//    UIImage *image = [UIImage imageNamed:@"tableBG2@2x"];
+//    UIColor *c = [UIColor colorWithPatternImage:image];
+//    [self.view setBackgroundColor:c];
     [super viewDidLoad];
 }
 
